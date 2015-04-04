@@ -1,0 +1,13 @@
+{
+	"name": "urf-madness-crawler",
+	"version": "1.25.0",
+	"description": "Perform GET requests to store URF games info",
+	"scripts": {
+		"clean": "rm -rf node_modules"
+	},
+	"dependencies": {
+		"request": "*",
+		"q": "*",
+		"mongoose": "*",
+	}
+}
