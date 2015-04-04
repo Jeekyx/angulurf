@@ -26,15 +26,12 @@ function formatUrl(api, args) {
 function get(api, args) {
 	var deferred = Q.defer();
 	var url = formatUrl(api, args);
-	logger.debug('GET ' + url);
+	logger.info('GET ' + url);
 		
 	request.get(url, function (err, res, body) {
 		if (!err && res.statusCode === 200) {
 			deferred.resolve(body);
-			console.log('OK');
-			console.log(body);
 		} else {
-			console.log('NOT');
 			logger.error(body);
 			deferred.reject(new Error(body));
 		}
@@ -50,13 +47,16 @@ function get(api, args) {
 function changeRegion() {
 	var index = (REGIONS.indexOf(region) + 1) % REGIONS.length;
 	region = REGIONS[index];
-	logger.debug('Changing region to ' + region);
+	logger.info('Changing region to ' + region);
 	return index !== 0;
 }
 	
-
-function getNurfMatches() {
-	return get('{reg}/v2.2/match/2020461847');
+/**
+ *
+ *
+ */
+function getNurfMatches(date) {
+	return get('{reg}/v4.1/game/ids', [{key: 'beginDate', value: date}]);
 }
 
 function getMatchInfo(id) {
@@ -65,5 +65,6 @@ function getMatchInfo(id) {
 
 module.exports = {
 	changeRegion: changeRegion,
-	getNurfMatches: getNurfMatches
+	getNurfMatches: getNurfMatches,
+	getMatchInfo: getMatchInfo
 }

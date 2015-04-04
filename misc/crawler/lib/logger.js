@@ -3,8 +3,8 @@ function Logger(name) {
 	this.name = name;
 }
 
-Logger.prototype.debug = function(msg) {
-	console.log('[' + this.name + '][Debug] ' + msg);
+Logger.prototype.info = function(msg) {
+	console.log('[' + this.name + '][Info] ' + msg);
 }
 
 Logger.prototype.error = function(msg) {

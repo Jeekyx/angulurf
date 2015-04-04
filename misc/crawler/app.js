@@ -4,10 +4,11 @@ var mongoose = require('mongoose');
 var Crawler = require('./lib/crawler');
 var crawler = new Crawler(requester, mongoose);
 
-var start = 1427887200;
+var start = 1427885100;
 var then = new Date(start);
 console.log(then);
 crawler.run();
+
 /*
 requester.getNurfMatches()
 	.then(function () {
