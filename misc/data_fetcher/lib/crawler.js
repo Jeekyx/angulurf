@@ -18,8 +18,11 @@ var waitingIds = false;
 var canQuery = true;
 // Bucket of games
 var games = [];
+// Thu Apr 02 2015 00:35:00 GMT+0200 (CEST) (new starting date)
+var date = 1427927700
+
 // Starting date - Wed, 01 Apr 2015 10:45:00 GMT
-var date = 1427885100;
+//var date = 1427885100;
 
 // Go to the next step
 function nextStep() {
@@ -143,6 +146,12 @@ function fetchGamesData() {
 	//console.log ('fetchGamesData ' + step + ' ' + canQuery + ' ' + processedAllGames());
  	if (step !== STEP_GET_DATA || !canQuery)
  		return;
+
+ 	// No games were returned by the API form this region and date
+ 	if (!games.length) {
+ 		nextStep();
+ 		return;
+ 	}
 
  	function processGame(index, game) {
  		requester.getMatchInfo(game.id)
