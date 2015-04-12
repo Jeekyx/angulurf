@@ -1,0 +1,9 @@
+{
+	"name": "urf-madness-formatter",
+	"version": "1.0.0",
+	"description": "Do the treatments on the mongodb data",
+  "private": true,
+	"dependencies": {
+		"mongoose": "*"
+	}
+}
