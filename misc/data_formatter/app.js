@@ -64,7 +64,7 @@ function initializeItems() {
 			// We need accurate data here so we start at 0
 			timeline: {
 				firstblood: 0,
-				firstDragon: 10,
+				firstDragon: 0,
 				firstBaron: 0,
 				firstLevel6: 0
 			},
