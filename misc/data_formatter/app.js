@@ -218,9 +218,13 @@ function run() {
 			}
 
 			// Timeline info
-			var info = processTimeline(game);
-			// Global info
-			processGlobal(game, info);
+                        if (game.timeline) {
+                          var info = processTimeline(game);
+                          // Global info
+                          processGlobal(game, info);
+                        } else {
+                          console.log('[WARNING] Failed to find timeline in game #' + processed);
+                        }
 		});
 		
 		// Process over, store the result
