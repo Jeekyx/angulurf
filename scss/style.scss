@@ -53,45 +53,55 @@ body {
   background: url('/img/swirl_pattern.png') repeat;
 }
 
+.main {
+  background: url("/img/wasteland_bg.png") bottom center no-repeat;
+  min-height: 100%;
+  padding: 120px 0 95px;
+  position: relative;
+  width: 100%;
+}
+
 .logo {
   background: url("/img/urfmadness_logo.png") no-repeat;
   background-size: contain;
-  left: 50%;
-  margin-left: -155px;
-  margin-top: 120px;
-  position: absolute;
   height: 136px;
-  top: 0;
+  margin: 0 auto 50px;
   width: 300px;
 }
 
-.main {
-  background: url("/img/wasteland_bg.png") bottom center no-repeat;
-  display: table;
-  height: 100%;
-  width: 100%;
-  .wrapper {
-    display: table-cell;
-    height: 100%;
-    vertical-align: middle;
-  }
+.description {
+  background-color: #47696B;
+  border: 2px solid #FFF;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 18px -5px rgba(78,92,94,1);
+  -moz-box-shadow: 0px 0px 18px -5px rgba(78,92,94,1);
+  box-shadow: 0px 0px 18px -5px rgba(78,92,94,1);
+  color: #FFF;
+  font-family: 'source_sans_prolight';
+  font-size: 16px;
+  margin: 0 auto 50px;
+  padding: 20px;
+  text-align: center;
+  width: 660px;
 }
 
 // Fact
-.fact {
+.facts {
   background-color: #FFF;
   border-radius: 20px;
   -webkit-box-shadow: 0px 0px 18px -5px rgba(78,92,94,1);
   -moz-box-shadow: 0px 0px 18px -5px rgba(78,92,94,1);
   box-shadow: 0px 0px 18px -5px rgba(78,92,94,1);
-  height: 200px;
-  line-height: 180px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
   position: relative;
   text-align: center;
   vertical-align: middle;
-  width: 600px;
+  width: 750px;
+  ul {
+    margin: 0;
+    padding: 0;
+  }
   .type-icon {
     left: -40px;
     position: absolute;
@@ -116,42 +126,48 @@ body {
   .urf {
     background: url('/img/urf.png') no-repeat;
     background-size: contain;
-    bottom: -70px;
     color: #FFF;
     cursor: pointer;
     display: block;
     font-family: 'source_sans_prosemibold';
-    font-size: 30px;
+    font-size: 60px;
     height: 100px;
-    left: 250px;
     line-height: 125px;
+    margin-top: -50px;
     position: absolute;
     text-shadow: 2px 0 0 $text-color, -2px 0 0 $text-color, 0 2px 0 $text-color,
     0 -2px 0 $text-color, 1px 1px $text-color, -1px -1px 0 $text-color,
     1px -1px 0 $text-color, -1px 1px 0 $text-color;
+    top: 50%;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     width: 100px;
     z-index: 2;
-  }
-  .urf:active, .urf:focus, .urf:hover {
-    background-image: url('/img/urf_on.png');
-    display: block;
-    text-decoration: none;
-    text-shadow: 2px 0 0 #cc6811, -2px 0 0 #cc6811, 0 2px 0 #cc6811,
-    0 -2px 0 #cc6811, 1px 1px #cc6811, -1px -1px 0 #cc6811,
-    1px -1px 0 #cc6811, -1px 1px 0 #cc6811;
+    &.left {
+      left: -160px;
+    }
+    &.right {
+      right: -160px;
+    }
+    &:active, &:focus, &:hover {
+      background-image: url('/img/urf_on.png');
+      display: block;
+      text-decoration: none;
+      text-shadow: 2px 0 0 #cc6811, -2px 0 0 #cc6811, 0 2px 0 #cc6811,
+      0 -2px 0 #cc6811, 1px 1px #cc6811, -1px -1px 0 #cc6811,
+      1px -1px 0 #cc6811, -1px 1px 0 #cc6811;
+    }
   }
   .text {
     color: $text-color;
     display: inline-block;
     font-family: 'source_sans_prosemibold';
     font-size: 28px;
+    height: auto;
     line-height: normal;
     text-align: center;
     vertical-align: middle;
-    width: 580px;
     .value {
       text-shadow: 2px 0 0 $text-color, -2px 0 0 $text-color, 0 2px 0 $text-color,
       0 -2px 0 $text-color, 1px 1px $text-color, -1px -1px 0 $text-color,
@@ -178,6 +194,9 @@ body {
       a {
         background-color: #47696B;
         border-radius: 0 0 15px 15px;
+        border-bottom: 1px solid #000;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
         -webkit-box-shadow: 0px 0px 12px -5px #000;
         -moz-box-shadow: 0px 0px 12px -5px #000;
         box-shadow: 0px 0px 12px -5px #000;
@@ -191,18 +210,18 @@ body {
         -moz-transition:All 0.5s ease;
         -o-transition:All 0.5s ease;
         width: 100px;
-      }
-      a:active, a.active, a:focus {
-        background-color: #FFF;
-        color: transparent;
-        outline: 0 none;
-        height: 100px;
-      }
-      a:hover {
-        background-color: #8EAAAA;
-        color: transparent;
-        outline: 0 none;
-        height: 100px;
+        &:active, &.active, &:focus {
+          background-color: #FFF;
+          color: transparent;
+          outline: 0 none;
+          height: 100px;
+        }
+        &:hover {
+          background-color: #8EAAAA;
+          color: transparent;
+          outline: 0 none;
+          height: 100px;
+        }
       }
     }
   }

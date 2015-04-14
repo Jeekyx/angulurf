@@ -23,30 +23,39 @@
 
       <div class="collapse navbar-collapse" id="main-menu">
         <ul class="nav league-selector navbar-nav">
-          <li><a class="bronze" ng-class="{active: leagues['bronze']}" ng-click="chooseLeague('bronze')">Bronze</a></li>
-          <li><a class="silver" ng-class="{active: leagues['silver']}" ng-click="chooseLeague('silver')">Silver</a></li>
-          <li><a class="gold" ng-class="{active: leagues['gold']}" ng-click="chooseLeague('gold')">Gold</a></li>
-          <li><a class="platinum" ng-class="{active: leagues['platinum']}" ng-click="chooseLeague('platinum')">Platinum</a></li>
-          <li><a class="diamond" ng-class="{active: leagues['diamond']}" ng-click="chooseLeague('diamond')">Diamond</a></li>
-          <li><a class="master" ng-class="{active: leagues['master']}" ng-click="chooseLeague('master')">Master</a></li>
-          <li><a class="challenger" ng-class="{active: leagues['challenger']}" ng-click="chooseLeague('challenger')">Challenger</a></li>
+          <li><a class="bronze" ng-class="{active: leagues[index]['bronze']}" ng-click="chooseLeague('bronze')">Bronze</a></li>
+          <li><a class="silver" ng-class="{active: leagues[index]['silver']}" ng-click="chooseLeague('silver')">Silver</a></li>
+          <li><a class="gold" ng-class="{active: leagues[index]['gold']}" ng-click="chooseLeague('gold')">Gold</a></li>
+          <li><a class="platinum" ng-class="{active: leagues[index]['platinum']}" ng-click="chooseLeague('platinum')">Platinum</a></li>
+          <li><a class="diamond" ng-class="{active: leagues[index]['diamond']}" ng-click="chooseLeague('diamond')">Diamond</a></li>
+          <li><a class="master" ng-class="{active: leagues[index]['master']}" ng-click="chooseLeague('master')">Master</a></li>
+          <li><a class="challenger" ng-class="{active: leagues[index]['challenger']}" ng-click="chooseLeague('challenger')">Challenger</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="logo">
-  </div>
-
   <div class="main">
+    <div class="logo">
+    </div>
+
+    <div class="description">
+      Useless but accurate statistics for Ultra Rapid Fire. Get started by picking one or more leagues!
+    </div>
+
     <div class="wrapper">
-      <div class="fact">
+      <div class="facts">
         <div class="type-icon">
-          <img src="/img/icon_teemo.png"></img>
+          <img src="{{facts[index].img}}"></img>
         </div>
-        <span class="text"><span class="value">{{randomFact.value}}{{randomFact.unit | unit}}</span> {{randomFact.sentence}}</span>
-        <a class="urf" ng-click="roll()">
-          Roll!
+        <ul>
+          <li class="text" ng-repeat="fact in facts[index]"><span class="value">{{fact.value}}{{fact.unit | unit}}</span> {{fact.sentence}}</li>
+        </ul>
+        <a class="urf left" ng-class="{hide: index <= 0}" ng-click="previous()">
+          &#x2770;
+        </a>
+        <a class="urf right" ng-click="next()">
+          &#x2771;
         </a>
       </div>
     </div>
