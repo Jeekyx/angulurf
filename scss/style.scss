@@ -1,0 +1,209 @@
+// Colors
+$bronze-color: #764300;
+$silver-color: #b6b6b6;
+$gold-color: #dfc100;
+$platinum-color: #2d8258;
+$diamond-color: #00b3c0;
+$master-color: #606060;
+$challenger-color: #004799;
+
+$text-color: #2d4275;
+
+.bronze {
+  background: url("/img/bronze_1.png") center center no-repeat;
+  background-size: contain;
+}
+
+.silver {
+  background: url("/img/silver_1.png") center center no-repeat;
+  background-size: contain;
+}
+
+.gold {
+  background: url("/img/gold_1.png") center center no-repeat;
+  background-size: contain;
+}
+
+.platinum {
+  background: url("/img/platinum_1.png") center center no-repeat;
+  background-size: contain;
+}
+
+.diamond {
+  background: url("/img/diamond_1.png") center center no-repeat;
+  background-size: contain;
+}
+
+.master {
+  background: url("/img/master_1.png") center center no-repeat;
+  background-size: contain;
+}
+
+.challenger {
+  background: url("/img/challenger_1.png") center center no-repeat;
+  background-size: contain;
+}
+
+// Main
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url('/img/swirl_pattern.png') repeat;
+}
+
+.logo {
+  background: url("/img/urfmadness_logo.png") no-repeat;
+  background-size: contain;
+  left: 50%;
+  margin-left: -155px;
+  margin-top: 120px;
+  position: absolute;
+  height: 136px;
+  top: 0;
+  width: 300px;
+}
+
+.main {
+  background: url("/img/wasteland_bg.png") bottom center no-repeat;
+  display: table;
+  height: 100%;
+  width: 100%;
+  .wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+  }
+}
+
+// Fact
+.fact {
+  background-color: #FFF;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 18px -5px rgba(78,92,94,1);
+  -moz-box-shadow: 0px 0px 18px -5px rgba(78,92,94,1);
+  box-shadow: 0px 0px 18px -5px rgba(78,92,94,1);
+  height: 200px;
+  line-height: 180px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 600px;
+  .type-icon {
+    left: -40px;
+    position: absolute;
+    top: -40px;
+    img {
+      border: 5px solid #FFF;
+      border-radius: 40px;
+      display: block;
+      height: 80px;
+      width: 80px;
+    }
+  }
+  .bubble-link {
+    background: url('/img/bubble-link.png') no-repeat;
+    bottom: 50px;
+    height: 85px;
+    left: -95px;
+    position: absolute;
+    width: 84px;
+    z-index: 2;
+  }
+  .urf {
+    background: url('/img/urf.png') no-repeat;
+    background-size: contain;
+    bottom: -70px;
+    color: #FFF;
+    cursor: pointer;
+    display: block;
+    font-family: 'source_sans_prosemibold';
+    font-size: 30px;
+    height: 100px;
+    left: 250px;
+    line-height: 125px;
+    position: absolute;
+    text-shadow: 2px 0 0 $text-color, -2px 0 0 $text-color, 0 2px 0 $text-color,
+    0 -2px 0 $text-color, 1px 1px $text-color, -1px -1px 0 $text-color,
+    1px -1px 0 $text-color, -1px 1px 0 $text-color;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    width: 100px;
+    z-index: 2;
+  }
+  .urf:active, .urf:focus, .urf:hover {
+    background-image: url('/img/urf_on.png');
+    display: block;
+    text-decoration: none;
+    text-shadow: 2px 0 0 #cc6811, -2px 0 0 #cc6811, 0 2px 0 #cc6811,
+    0 -2px 0 #cc6811, 1px 1px #cc6811, -1px -1px 0 #cc6811,
+    1px -1px 0 #cc6811, -1px 1px 0 #cc6811;
+  }
+  .text {
+    color: $text-color;
+    display: inline-block;
+    font-family: 'source_sans_prosemibold';
+    font-size: 28px;
+    line-height: normal;
+    text-align: center;
+    vertical-align: middle;
+    width: 580px;
+    .value {
+      text-shadow: 2px 0 0 $text-color, -2px 0 0 $text-color, 0 2px 0 $text-color,
+      0 -2px 0 $text-color, 1px 1px $text-color, -1px -1px 0 $text-color,
+      1px -1px 0 $text-color, -1px 1px 0 $text-color;
+      color: #FFF;
+      font-size: 36px;
+    }
+  }
+}
+
+// Menu
+.navbar {
+  background-color: transparent;
+  border-bottom: 0;
+  height: 80px;
+  .navbar-nav {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    li {
+      display: inline-block;
+      float: none;
+      padding: 0;
+      a {
+        background-color: #47696B;
+        border-radius: 0 0 15px 15px;
+        -webkit-box-shadow: 0px 0px 12px -5px #000;
+        -moz-box-shadow: 0px 0px 12px -5px #000;
+        box-shadow: 0px 0px 12px -5px #000;
+        color: transparent;
+        cursor: pointer;
+        height: 80px;
+        padding: 0;
+        text-indent: -9999px;
+        transition:All 0.5s ease;
+        -webkit-transition:All 0.5s ease;
+        -moz-transition:All 0.5s ease;
+        -o-transition:All 0.5s ease;
+        width: 100px;
+      }
+      a:active, a.active, a:focus {
+        background-color: #FFF;
+        color: transparent;
+        outline: 0 none;
+        height: 100px;
+      }
+      a:hover {
+        background-color: #8EAAAA;
+        color: transparent;
+        outline: 0 none;
+        height: 100px;
+      }
+    }
+  }
+}
