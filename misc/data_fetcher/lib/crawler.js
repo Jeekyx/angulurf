@@ -30,6 +30,7 @@ function nextStep() {
 	if (step === STEP_GET_DATA) {
 		gameIndex = 0;
 		var changeDate = !requester.changeRegion();
+                games = [];
 		logger.info('Changing region');
 		// If we're done for this date, increment it
 		if (changeDate) {
