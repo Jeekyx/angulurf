@@ -23,13 +23,13 @@
 
       <div class="collapse navbar-collapse" id="main-menu">
         <ul class="nav league-selector navbar-nav">
-          <li><a class="bronze" ng-class="{active: leagues[index]['bronze']}" ng-click="chooseLeague('bronze')">Bronze</a></li>
-          <li><a class="silver" ng-class="{active: leagues[index]['silver']}" ng-click="chooseLeague('silver')">Silver</a></li>
-          <li><a class="gold" ng-class="{active: leagues[index]['gold']}" ng-click="chooseLeague('gold')">Gold</a></li>
-          <li><a class="platinum" ng-class="{active: leagues[index]['platinum']}" ng-click="chooseLeague('platinum')">Platinum</a></li>
-          <li><a class="diamond" ng-class="{active: leagues[index]['diamond']}" ng-click="chooseLeague('diamond')">Diamond</a></li>
-          <li><a class="master" ng-class="{active: leagues[index]['master']}" ng-click="chooseLeague('master')">Master</a></li>
-          <li><a class="challenger" ng-class="{active: leagues[index]['challenger']}" ng-click="chooseLeague('challenger')">Challenger</a></li>
+          <li><a class="bronze" ng-class="{active: facts[index]['leagues']['bronze']['visible']}" ng-click="chooseLeague('bronze')">Bronze</a></li>
+          <li><a class="silver" ng-class="{active: facts[index]['leagues']['silver']['visible']}" ng-click="chooseLeague('silver')">Silver</a></li>
+          <li><a class="gold" ng-class="{active: facts[index]['leagues']['gold']['visible']}" ng-click="chooseLeague('gold')">Gold</a></li>
+          <li><a class="platinum" ng-class="{active: facts[index]['leagues']['platinum']['visible']}" ng-click="chooseLeague('platinum')">Platinum</a></li>
+          <li><a class="diamond" ng-class="{active: facts[index]['leagues']['diamond']['visible']}" ng-click="chooseLeague('diamond')">Diamond</a></li>
+          <li><a class="master" ng-class="{active: facts[index]['leagues']['master']['visible']}" ng-click="chooseLeague('master')">Master</a></li>
+          <li><a class="challenger" ng-class="{active: facts[index]['leagues']['challenger']['visible']}" ng-click="chooseLeague('challenger')">Challenger</a></li>
         </ul>
       </div>
     </div>
@@ -40,16 +40,27 @@
     </div>
 
     <div class="description">
-      Useless but accurate statistics for Ultra Rapid Fire. Get started by picking one or more leagues!
+      Useless but accurate statistics for Ultra Rapid Fire.<br>
+      Get started by picking one or more leagues!
     </div>
 
     <div class="wrapper">
-      <div class="facts">
+      <div ng-class="{hide: stats == false}" class="stats">
+        <p>Games statistics</p>
+        <ul>
+          <li><span class="league">Bronze</span>12833 games</li>
+          <li><span class="league">Silver</span>8453 games</li>
+        </ul>
+      </div>
+
+      <div ng-class="{hide: stats == true}"  class="facts">
         <div class="type-icon">
-          <img src="{{facts[index].img}}"></img>
+          <img ng-src="{{facts[index].img}}"></img>
         </div>
         <ul>
-          <li class="text" ng-repeat="fact in facts[index]"><span class="value">{{fact.value}}{{fact.unit | unit}}</span> {{fact.sentence}}</li>
+          <li class="text" ng-repeat="league in facts[index].leagues | leaguevisible:true">
+            <span class="value">{{ league.fact.value }}{{ league.fact.unit | unit }}</span><span class="sentence">{{ league.fact.sentence }}</span>
+          </li>
         </ul>
         <a class="urf left" ng-class="{hide: index <= 0}" ng-click="previous()">
           &#x2770;

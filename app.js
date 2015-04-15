@@ -49,6 +49,6 @@ http.createServer(app).listen(app.get('http-port'), function () {
 });
 
 // Livereload code
-var livereload = require('livereload');
+/*var livereload = require('livereload');
 server = livereload.createServer();
-server.watch(__dirname + "/www");
+server.watch(__dirname + "/www");*/

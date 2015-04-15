@@ -86,6 +86,41 @@ body {
   width: 660px;
 }
 
+
+.stats {
+  background-color: #FFF;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 18px -5px rgba(78,92,94,1);
+  -moz-box-shadow: 0px 0px 18px -5px rgba(78,92,94,1);
+  box-shadow: 0px 0px 18px -5px rgba(78,92,94,1);
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 750px;
+  &.hide {
+    display: none;
+  }
+  p {
+    font-family: 'source_sans_probold';
+    font-size: 32px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      font-family: 'source_sans_proregular';
+      font-size: 20px;
+      list-style: none;
+      .league {
+        font-family: 'source_sans_prosemibold';
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
 // Fact
 .facts {
   background-color: #FFF;
@@ -99,6 +134,9 @@ body {
   text-align: center;
   vertical-align: middle;
   width: 750px;
+  &.hide {
+    display: none;
+  }
   ul {
     margin: 0;
     padding: 0;
