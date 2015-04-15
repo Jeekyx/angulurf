@@ -13,7 +13,7 @@ app.controller('HomeCtrl', function ($scope, $http, $localStorage) {
   $scope.facts = {
     0: {
       count: 0,
-      img: '/img/iconf_teemo.png',
+      img: '/img/icon_teemo.png',
       type: 'teemo',
       leagues: {
         bronze: { order: 0, visible: false, fact: {} },
@@ -79,7 +79,7 @@ app.controller('HomeCtrl', function ($scope, $http, $localStorage) {
         // @TODO: Generate new type and then get image
         $scope.facts[$scope.index] = {
           count: 0,
-          img: '/img/iconf_teemo.png',
+          img: '/img/icon_teemo.png',
           type: 'teemo',
           leagues: {
             bronze: { order: 0, visible: false, fact: {} },

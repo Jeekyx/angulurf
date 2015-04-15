@@ -197,6 +197,9 @@ body {
       0 -2px 0 #cc6811, 1px 1px #cc6811, -1px -1px 0 #cc6811,
       1px -1px 0 #cc6811, -1px 1px 0 #cc6811;
     }
+    &.new {
+      font-size: 45px;
+    }
   }
   .text {
     color: $text-color;
@@ -213,6 +216,9 @@ body {
       1px -1px 0 $text-color, -1px 1px 0 $text-color;
       color: #FFF;
       font-size: 36px;
+    }
+    .sentence {
+      margin-left: 10px;
     }
   }
 }
