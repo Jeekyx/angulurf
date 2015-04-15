@@ -20,6 +20,13 @@ app.use(bodyParser.json());
 // Serve angular app
 app.use(express.static('www'));
 
+// CORS (Cross-Origin Resource Sharing) headers to support Cross-site HTTP requests
+app.all('*', function(req, res, next) {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-type, Accept, Authorization');
+  next();
+});
+
 mongoose.connect(MONGO_URI, function(err) {
   if (!err) {
     console.log('Connected to ' + MONGO_URI);
@@ -33,13 +40,6 @@ app.use('/champions', routesStatic.Champion);
 app.use('/spells', routesStatic.Spell);
 
 app.use('/random', routesData.Random);
-
-// CORS (Cross-Origin Resource Sharing) headers to support Cross-site HTTP requests
-app.all('*', function(req, res, next) {
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-type, Accept, Authorization');
-  next();
-});
 
 app.set('http-port', process.env.PORT || 5142);
 

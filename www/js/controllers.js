@@ -34,9 +34,11 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
 
   $scope.randomFactPopulator = function (selected) {
     API.random(function (data) {
+      console.log(data);
       leagues.forEach(function (element, index, array) {
         // @TODO: Change sentence from type, etc.
         // @TODO: Work with the null case.
+        // @TODO: Change sentence design.
         var sentence = 'of ' + element + ' players have bought ';
         if (data[element]!= null) {
           console.log(data);
