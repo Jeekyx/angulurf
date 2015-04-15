@@ -59,7 +59,7 @@
         </div>
         <ul>
           <li class="text" ng-repeat="league in facts[index].leagues | leaguevisible:true">
-            <span class="value">{{ league.fact.value }}{{ league.fact.unit | unit }}</span><span class="sentence">{{ league.fact.sentence }}</span>
+            <img ng-src="{{ league.name | leagueimage }}"></img><span class="value">{{ league.fact.value }}{{ league.fact.unit | unit }}</span><span class="sentence">{{ league.fact.sentence }}</span>
           </li>
         </ul>
         <a class="urf left" ng-class="{hide: index <= 0}" ng-click="previous()">

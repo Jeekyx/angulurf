@@ -51,7 +51,6 @@ app.controller('HomeCtrl', function ($scope, $http, $localStorage) {
     }
 
     $scope.chooseLeague = function (league) {
-      // @TODO: Add fact league style.
       if (leagues.indexOf(league) > -1) {
         if ($scope.facts[$scope.index]['count'] == 0)
         $scope.stats = false;

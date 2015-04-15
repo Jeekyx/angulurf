@@ -211,6 +211,12 @@ body {
     line-height: normal;
     text-align: center;
     vertical-align: middle;
+    img {
+      float: left;
+      margin-top: -12px;
+      margin-right: 10px;
+      width: 70px;
+    }
     .value {
       text-shadow: 2px 0 0 $text-color, -2px 0 0 $text-color, 0 2px 0 $text-color,
       0 -2px 0 $text-color, 1px 1px $text-color, -1px -1px 0 $text-color,
