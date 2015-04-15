@@ -1,1 +1,1 @@
-var app = angular.module('UrfMadnessApp', ['UrfMadnessAppControllers', 'UrfMadnessAppDirectives', 'UrfMadnessAppFilters']);
+var app = angular.module('UrfMadnessApp', ['UrfMadnessApp.Controllers', 'UrfMadnessApp.Directives', 'UrfMadnessApp.Services', 'UrfMadnessApp.Filters']);
