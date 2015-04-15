@@ -1,7 +1,7 @@
 var Global = require('../models/models.js').Global;
 var Item = require('../models/models.js').Item;
 var Champion = require('../models/models.js').Global;
-var Spell = require('../models/models.js').Global;
+var SummonerSpell = require('../models/models.js').Global;
 
 var express = require('express');
 var routerRandom = express.Router();
