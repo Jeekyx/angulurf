@@ -1,0 +1,38 @@
+{
+  "data": {
+    "unranked": {
+      "total": 9,
+      "percent": 0.32177332856632107
+    },
+    "bronze": {
+      "total": 3,
+      "percent": 0.26833631484794274
+    },
+    "silver": {
+      "total": 2,
+      "percent": 0.07555723460521345
+    },
+    "gold": {
+      "total": 3,
+      "percent": 0.23112480739599384
+    },
+    "platinum": {
+      "total": 2,
+      "percent": 0.5361930294906166
+    },
+    "diamond": {
+      "total": 2,
+      "percent": 1.6
+    },
+    "master": null,
+    "challenger": null,
+    "type": "items"
+  },
+  "type": "items",
+  "icon": "http://imgur/test.png",
+  "object": {
+    "id": 3801,
+    "name": "Crystalline Bracer",
+    "image": "http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3801.png"
+  }
+}

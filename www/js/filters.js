@@ -1,4 +1,4 @@
-var app = angular.module('UrfMadnessAppFilters', []);
+var app = angular.module('UrfMadnessApp.Filters', []);
 
 app.filter('unit', function () {
   var units = {

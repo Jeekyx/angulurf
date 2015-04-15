@@ -1,1 +1,1 @@
-var app = angular.module('UrfMadnessAppDirectives', []);
+var app = angular.module('UrfMadnessApp.Directives', []);
