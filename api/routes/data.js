@@ -116,6 +116,7 @@ function sendResponse(res) {
 	result.type = property;
 	console.log(result);
 	console.log();
+	res.send(result);
 }
 
 // Retrive all the static data and the global data of all the urf games
@@ -131,19 +132,21 @@ Global.findOne({}, '-_id -__v',function (err, doc) {
 
 Item.find({}, '-_id -__v', function (err, docs) {
 	items = docs;
+	console.log(items.length + ' items');
 });
 
 Champion.find({}, '-_id -__v', function (err, docs) {
 	champions = docs;
+	console.log(champions.length + ' champions');
 });
 
 SummonerSpell.find({}, '-_id -__v', function (err, docs) {
 	spells = docs;
+	console.log(spells.length + ' spells');
 });
 
 routerRandom.get('/', function(req, res, next) {
 	sendResponse(res);
-	res.send(global);
 });
 
 module.exports.Random = routerRandom;
