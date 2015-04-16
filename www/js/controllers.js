@@ -1,4 +1,4 @@
-var app = angular.module('UrfMadnessApp.Controllers', ['ngStorage']);
+var app = angular.module('UrfMadnessApp.Controllers', ['ngStorage', 'ngAnimate']);
 
 app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function ($scope, $http, $localStorage, API) {
   // Default fact identifier value
@@ -53,9 +53,9 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
   $scope.facts = {
     0: {
       count: 0,
-      img: '/img/icon_teemo.png',
-      type: 'pick',
-      sentence: 'This is a sentence',
+      img: '',
+      type: 'picks',
+      sentence: '',
       object: {},
       leagues: {
         unranked: { order: 0, visible: false, value: 0, unit: '' },
@@ -92,6 +92,7 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
       console.log(data);
 
       leagues.forEach(function (element, index, array) {
+        $scope.facts[$scope.index].leagues[element]['name'] = element;
         if (data.data[element] != null) {
           $scope.facts[$scope.index].leagues[element]['value'] = data.data[element][units[data.type] == 'timestamp' ? 'avg' : units[data.type]];
           $scope.facts[$scope.index].leagues[element]['unit'] = units[data.type];
@@ -137,8 +138,8 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
       $scope.facts[$scope.index] = {
         count: 0,
         img: '',
-        type: 'pick',
-        sentence: 'This is a sentence',
+        type: 'picks',
+        sentence: '',
         object: {},
         leagues: {
           unranked: { order: 0, visible: false, value: 0, unit: '' },
