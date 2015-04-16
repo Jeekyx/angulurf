@@ -4,7 +4,14 @@ app.factory('API', ['$http', function ($http) {
   var service = {};
 
   service.random = function (callback) {
-    var uri = 'http://urfmadness.archorn.eu/random';
+    var uri = '/random';
+    $http.get(uri).then(function (data) {
+      callback(data.data);
+    });
+  };
+
+  service.stats = function (callback) {
+    var uri = '/stats';
     $http.get(uri).then(function (data) {
       callback(data.data);
     });
