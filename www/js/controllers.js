@@ -89,7 +89,6 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
       $scope.facts[$scope.index].img = data.icon.replace(".webp", ".jpg");
       if (typeof data.object != "undefined")
       $scope.facts[$scope.index].object = data.object;
-      console.log(data);
 
       leagues.forEach(function (element, index, array) {
         $scope.facts[$scope.index].leagues[element]['name'] = element;
@@ -135,23 +134,7 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
   $scope.next = function () {
     $scope.index++;
     if ($scope.index > $scope.max) {
-      $scope.facts[$scope.index] = {
-        count: 0,
-        img: '',
-        type: 'picks',
-        sentence: '',
-        object: {},
-        leagues: {
-          unranked: { order: 0, visible: false, value: 0, unit: '' },
-          bronze: { order: 1, visible: false, value: 0, unit: '' },
-          silver: { order: 2, visible: false, value: 0, unit: '' },
-          gold: { order: 3, visible: false, value: 0, unit: '' },
-          platinum: { order: 4, visible: false, value: 0, unit: '' },
-          diamond: { order: 5, visible: false, value: 0, unit: '' },
-          master: { order: 6, visible: false, value: 0, unit: '' },
-          challenger: { order: 7, visible: false, value: 0, unit: '' }
-        }
-      };
+      $scope.facts[$scope.index] = jQuery.extend(true, {}, $scope.facts[$scope.index - 1]);;
       var selected = [];
       leagues.forEach(function (element, index, array) {
         if ($scope.facts[$scope.index - 1].leagues[element]['visible'])
