@@ -1,15 +1,7 @@
 var app = angular.module('UrfMadnessApp.Controllers', ['ngStorage', 'ngAnimate']);
 
-<<<<<<< HEAD
-app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API',
-  function ($scope, $http, $localStorage, API) {
-  // Default fact identifier value
-  //$scope.$storage = $localStorage.$default({ factId: 0 });
-
-=======
 app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', '$timeout', 'API',
 function ($scope, $http, $localStorage, $timeout, API) {
->>>>>>> e399f3a8736266ecc6efa1143ee6d703bda3897a
   var leagues = [ 'unranked', 'bronze', 'silver', 'gold', 'platinum', 'diamond', 'master', 'challenger' ];
 
   var sentences = {
@@ -77,15 +69,7 @@ function ($scope, $http, $localStorage, $timeout, API) {
       }
     }
   };
-
-  // Graph
-  $scope.config = {
-    title: 'Products',
-    tooltips: true,
-    labels: false
-  };
-
-  $scope.data = {};
+  
   API.stats(function (data) {
     $scope.statsData = data;
     console.log(data);
@@ -93,7 +77,7 @@ function ($scope, $http, $localStorage, $timeout, API) {
 
   $scope.roundUp = function () {
     if (units[$scope.facts[$scope.index].type] == 'avg')
-      return 0;
+    return 0;
 
     return 2;
   }
@@ -109,9 +93,9 @@ function ($scope, $http, $localStorage, $timeout, API) {
       $scope.facts[$scope.index].sentence = sentences[data.type];
       $scope.facts[$scope.index].img = data.icon.replace(".webp", ".jpg");
       if (typeof data.object != "undefined")
-        $scope.facts[$scope.index].object = data.object;
+      $scope.facts[$scope.index].object = data.object;
 
-      $scope.data = { 
+      $scope.data = {
         series: [],
         data: []
       };
@@ -131,18 +115,18 @@ function ($scope, $http, $localStorage, $timeout, API) {
       });
 
       if (typeof selected != "undefined")
-        selected.forEach(function (element, index, array) {
-          if (!$scope.facts[$scope.index].leagues[element]['visible'])
-            $scope.facts[$scope.index]['count']++;
+      selected.forEach(function (element, index, array) {
+        if (!$scope.facts[$scope.index].leagues[element]['visible'])
+        $scope.facts[$scope.index]['count']++;
 
-          $scope.facts[$scope.index].leagues[element]['visible'] = true;
-        });
+        $scope.facts[$scope.index].leagues[element]['visible'] = true;
+      });
     });
-};
+  };
 
-$scope.chooseLeague = function (league) {
-  if (leagues.indexOf(league) > -1) {
-    if ($scope.facts[$scope.index]['count'] == 0)
+  $scope.chooseLeague = function (league) {
+    if (leagues.indexOf(league) > -1) {
+      if ($scope.facts[$scope.index]['count'] == 0)
       $scope.stats = false;
 
       if (!$scope.facts[$scope.index].leagues[league]['visible']) {
@@ -165,7 +149,7 @@ $scope.chooseLeague = function (league) {
         }, 150);
       }, 150);
     }
-};
+  };
 
   $scope.next = function () {
     $scope.contentShown = false;
@@ -188,5 +172,5 @@ $scope.chooseLeague = function (league) {
     }, 150);
   };
 
-$scope.randomFactPopulator();
+  $scope.randomFactPopulator();
 }]);
