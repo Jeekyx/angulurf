@@ -69,10 +69,9 @@ function ($scope, $http, $localStorage, $timeout, API) {
       }
     }
   };
-  
+
   API.stats(function (data) {
     $scope.statsData = data;
-    console.log(data);
   });
 
   $scope.roundUp = function () {

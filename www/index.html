@@ -71,10 +71,11 @@
           </ul>
         </div>
         <a class="urf left" ng-hide="index <= 0" ng-click="previous()">
-          &#x2770;
+          <img src="/img/left-arrow.png" class="arrow"></img>
         </a>
         <a ng-class="{new: index == max}" class="urf right" ng-click="next()">
-          {{ index == max ? 'New!' : '&#x2771;' }}
+          <img src="/img/right-arrow.png" ng-if="index != max" class="arrow"></img>
+          <span ng-if="index == max" class="text">New!</span>
         </a>
       </div>
     </div>
