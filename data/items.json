@@ -1,0 +1,239 @@
+{"_id":{ "$oid": "552ecfeca410db18138acc3f" },"id":1001,"name":"Boots of Speed","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1001.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc40" },"id":1004,"name":"Faerie Charm","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1004.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc41" },"id":1006,"name":"Rejuvenation Bead","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1006.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc42" },"id":1011,"name":"Giant's Belt","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1011.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc43" },"id":1018,"name":"Cloak of Agility","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1018.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc44" },"id":1026,"name":"Blasting Wand","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1026.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc45" },"id":1027,"name":"Sapphire Crystal","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1027.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc46" },"id":1028,"name":"Ruby Crystal","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1028.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc47" },"id":1029,"name":"Cloth Armor","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1029.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc48" },"id":1031,"name":"Chain Vest","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1031.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc49" },"id":1033,"name":"Null-Magic Mantle","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1033.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc4a" },"id":1036,"name":"Long Sword","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1036.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc4b" },"id":1037,"name":"Pickaxe","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1037.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc4c" },"id":1038,"name":"B. F. Sword","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1038.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc4d" },"id":1039,"name":"Hunter's Machete","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1039.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc4e" },"id":1042,"name":"Dagger","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1042.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc4f" },"id":1043,"name":"Recurve Bow","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1043.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc50" },"id":1051,"name":"Brawler's Gloves","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1051.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc51" },"id":1052,"name":"Amplifying Tome","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1052.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc52" },"id":1053,"name":"Vampiric Scepter","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1053.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc53" },"id":1054,"name":"Doran's Shield","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1054.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc54" },"id":1055,"name":"Doran's Blade","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1055.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc55" },"id":1056,"name":"Doran's Ring","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1056.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc56" },"id":1057,"name":"Negatron Cloak","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1057.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc57" },"id":1058,"name":"Needlessly Large Rod","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1058.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc58" },"id":1062,"name":"Prospector's Blade","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1062.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc59" },"id":1063,"name":"Prospector's Ring","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1063.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc5a" },"id":1074,"name":"Doran's Shield (Showdown }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1074.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc5b" },"id":1075,"name":"Doran's Blade (Showdown }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1075.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc5c" },"id":1076,"name":"Doran's Ring (Showdown }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/1076.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc5d" },"id":2003,"name":"Health Potion","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2003.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc5e" },"id":2004,"name":"Mana Potion","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2004.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc5f" },"id":2009,"name":"Total Biscuit of Rejuvenation","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2009.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc60" },"id":2010,"name":"Total Biscuit of Rejuvenation","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2010.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc61" },"id":2041,"name":"Crystalline Flask","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2041.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc62" },"id":2043,"name":"Vision Ward","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2043.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc63" },"id":2044,"name":"Stealth Ward","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2044.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc64" },"id":2045,"name":"Ruby Sightstone","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2045.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc65" },"id":2047,"name":"Oracle's Extract","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2047.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc66" },"id":2049,"name":"Sightstone","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2049.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc67" },"id":2050,"name":"Explorer's Ward","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2050.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc68" },"id":2051,"name":"Guardian's Horn","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2051.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc69" },"id":2052,"name":"Poro-Snax","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2052.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc6a" },"id":2053,"name":"Raptor Cloak","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2053.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc6b" },"id":2054,"name":"Diet Poro-Snax","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2054.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc6c" },"id":2137,"name":"Elixir of Ruin","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2137.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc6d" },"id":2138,"name":"Elixir of Iron","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2138.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc6e" },"id":2139,"name":"Elixir of Sorcery","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2139.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc6f" },"id":2140,"name":"Elixir of Wrath","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/2140.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc70" },"id":3001,"name":"Abyssal Scepter","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3001.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc71" },"id":3003,"name":"Archangel's Staff","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3003.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc72" },"id":3004,"name":"Manamune","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3004.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc73" },"id":3006,"name":"Berserker's Greaves","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3006.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc74" },"id":3007,"name":"Archangel's Staff (Crystal Scar }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3007.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc75" },"id":3008,"name":"Manamune (Crystal Scar }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3008.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc76" },"id":3009,"name":"Boots of Swiftness","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3009.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc77" },"id":3010,"name":"Catalyst the Protector","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3010.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc78" },"id":3020,"name":"Sorcerer's Shoes","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3020.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc79" },"id":3022,"name":"Frozen Mallet","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3022.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc7a" },"id":3023,"name":"Twin Shadows","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3023.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc7b" },"id":3024,"name":"Glacial Shroud","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3024.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc7c" },"id":3025,"name":"Iceborn Gauntlet","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3025.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc7d" },"id":3026,"name":"Guardian Angel","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3026.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc7e" },"id":3027,"name":"Rod of Ages","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3027.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc7f" },"id":3028,"name":"Chalice of Harmony","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3028.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc80" },"id":3029,"name":"Rod of Ages (Crystal Scar }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3029.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc81" },"id":3031,"name":"Infinity Edge","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3031.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc82" },"id":3035,"name":"Last Whisper","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3035.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc83" },"id":3040,"name":"Seraph's Embrace","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3040.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc84" },"id":3041,"name":"Mejai's Soulstealer","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3041.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc85" },"id":3042,"name":"Muramana","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3042.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc86" },"id":3043,"name":"Muramana","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3043.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc87" },"id":3044,"name":"Phage","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3044.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc88" },"id":3046,"name":"Phantom Dancer","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3046.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc89" },"id":3047,"name":"Ninja Tabi","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3047.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc8a" },"id":3048,"name":"Seraph's Embrace","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3048.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc8b" },"id":3050,"name":"Zeke's Herald","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3050.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc8c" },"id":3056,"name":"Ohmwrecker","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3056.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc8d" },"id":3057,"name":"Sheen","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3057.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc8e" },"id":3060,"name":"Banner of Command","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3060.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc8f" },"id":3065,"name":"Spirit Visage","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3065.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc90" },"id":3067,"name":"Kindlegem","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3067.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc91" },"id":3068,"name":"Sunfire Cape","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3068.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc92" },"id":3069,"name":"Talisman of Ascension","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3069.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc93" },"id":3070,"name":"Tear of the Goddess","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3070.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc94" },"id":3071,"name":"The Black Cleaver","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3071.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc95" },"id":3072,"name":"The Bloodthirster","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3072.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc96" },"id":3073,"name":"Tear of the Goddess (Crystal Scar }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3073.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc97" },"id":3074,"name":"Ravenous Hydra (Melee Only }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3074.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc98" },"id":3075,"name":"Thornmail","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3075.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc99" },"id":3077,"name":"Tiamat (Melee Only }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3077.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc9a" },"id":3078,"name":"Trinity Force","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3078.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc9b" },"id":3082,"name":"Warden's Mail","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3082.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc9c" },"id":3083,"name":"Warmog's Armor","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3083.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc9d" },"id":3084,"name":"Overlord's Bloodmail","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3084.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc9e" },"id":3085,"name":"Runaan's Hurricane (Ranged Only }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3085.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acc9f" },"id":3086,"name":"Zeal","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3086.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acca0" },"id":3087,"name":"Statikk Shiv","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3087.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acca1" },"id":3089,"name":"Rabadon's Deathcap","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3089.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acca2" },"id":3090,"name":"Wooglet's Witchcap","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3090.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acca3" },"id":3091,"name":"Wit's End","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3091.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acca4" },"id":3092,"name":"Frost Queen's Claim","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3092.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acca5" },"id":3093,"name":"Avarice Blade","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3093.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acca6" },"id":3096,"name":"Nomad's Medallion","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3096.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acca7" },"id":3097,"name":"Targon's Brace","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3097.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acca8" },"id":3098,"name":"Frostfang","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3098.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acca9" },"id":3100,"name":"Lich Bane","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3100.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accaa" },"id":3101,"name":"Stinger","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3101.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accab" },"id":3102,"name":"Banshee's Veil","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3102.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accac" },"id":3104,"name":"Lord Van Damm's Pillager","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3104.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accad" },"id":3105,"name":"Aegis of the Legion","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3105.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accae" },"id":3106,"name":"Madred's Razors","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3106.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accaf" },"id":3108,"name":"Fiendish Codex","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3108.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accb0" },"id":3110,"name":"Frozen Heart","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3110.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accb1" },"id":3111,"name":"Mercury's Treads","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3111.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accb2" },"id":3112,"name":"Orb of Winter","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3112.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accb3" },"id":3113,"name":"Aether Wisp","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3113.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accb4" },"id":3114,"name":"Forbidden Idol","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3114.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accb5" },"id":3115,"name":"Nashor's Tooth","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3115.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accb6" },"id":3116,"name":"Rylai's Crystal Scepter","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3116.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accb7" },"id":3117,"name":"Boots of Mobility","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3117.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accb8" },"id":3122,"name":"Wicked Hatchet","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3122.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accb9" },"id":3124,"name":"Guinsoo's Rageblade","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3124.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accba" },"id":3134,"name":"The Brutalizer","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3134.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accbb" },"id":3135,"name":"Void Staff","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3135.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accbc" },"id":3136,"name":"Haunting Guise","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3136.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accbd" },"id":3137,"name":"Dervish Blade","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3137.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accbe" },"id":3139,"name":"Mercurial Scimitar","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3139.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accbf" },"id":3140,"name":"Quicksilver Sash","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3140.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accc0" },"id":3141,"name":"Sword of the Occult","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3141.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accc1" },"id":3142,"name":"Youmuu's Ghostblade","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3142.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accc2" },"id":3143,"name":"Randuin's Omen","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3143.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accc3" },"id":3144,"name":"Bilgewater Cutlass","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3144.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accc4" },"id":3145,"name":"Hextech Revolver","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3145.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accc5" },"id":3146,"name":"Hextech Gunblade","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3146.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accc6" },"id":3151,"name":"Liandry's Torment","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3151.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accc7" },"id":3152,"name":"Will of the Ancients","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3152.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accc8" },"id":3153,"name":"Blade of the Ruined King","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3153.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accc9" },"id":3154,"name":"Wriggle's Lantern","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3154.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accca" },"id":3155,"name":"Hexdrinker","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3155.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acccb" },"id":3156,"name":"Maw of Malmortius","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3156.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acccc" },"id":3157,"name":"Zhonya's Hourglass","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3157.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acccd" },"id":3158,"name":"Ionian Boots of Lucidity","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3158.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accce" },"id":3159,"name":"Grez's Spectral Lantern","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3159.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acccf" },"id":3165,"name":"Morellonomicon","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3165.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accd0" },"id":3170,"name":"Moonflair Spellblade","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3170.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accd1" },"id":3172,"name":"Zephyr","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3172.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accd2" },"id":3174,"name":"Athene's Unholy Grail","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3174.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accd3" },"id":3180,"name":"Odyn's Veil","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3180.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accd4" },"id":3181,"name":"Sanguine Blade","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3181.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accd5" },"id":3184,"name":"Entropy","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3184.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accd6" },"id":3185,"name":"The Lightbringer","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3185.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accd7" },"id":3187,"name":"Hextech Sweeper","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3187.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accd8" },"id":3190,"name":"Locket of the Iron Solari","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3190.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accd9" },"id":3191,"name":"Seeker's Armguard","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3191.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accda" },"id":3196,"name":"The Hex Core mk-1","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3196.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accdb" },"id":3197,"name":"The Hex Core mk-2","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3197.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accdc" },"id":3198,"name":"Perfect Hex Core","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3198.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accdd" },"id":3200,"name":"Prototype Hex Core","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3200.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accde" },"id":3211,"name":"Spectre's Cowl","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3211.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accdf" },"id":3222,"name":"Mikael's Crucible","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3222.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acce0" },"id":3250,"name":"Enchantment: Homeguard","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3250.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acce1" },"id":3251,"name":"Enchantment: Captain","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3251.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acce2" },"id":3252,"name":"Enchantment: Furor","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3252.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acce3" },"id":3253,"name":"Enchantment: Distortion","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3253.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acce4" },"id":3254,"name":"Enchantment: Alacrity","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3254.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acce5" },"id":3255,"name":"Enchantment: Homeguard","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3255.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acce6" },"id":3256,"name":"Enchantment: Captain","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3256.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acce7" },"id":3257,"name":"Enchantment: Furor","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3257.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acce8" },"id":3258,"name":"Enchantment: Distortion","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3258.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acce9" },"id":3259,"name":"Enchantment: Alacrity","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3259.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accea" },"id":3260,"name":"Enchantment: Homeguard","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3260.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acceb" },"id":3261,"name":"Enchantment: Captain","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3261.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accec" },"id":3262,"name":"Enchantment: Furor","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3262.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acced" },"id":3263,"name":"Enchantment: Distortion","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3263.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accee" },"id":3264,"name":"Enchantment: Alacrity","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3264.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accef" },"id":3265,"name":"Enchantment: Homeguard","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3265.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accf0" },"id":3266,"name":"Enchantment: Captain","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3266.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accf1" },"id":3267,"name":"Enchantment: Furor","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3267.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accf2" },"id":3268,"name":"Enchantment: Distortion","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3268.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accf3" },"id":3269,"name":"Enchantment: Alacrity","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3269.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accf4" },"id":3270,"name":"Enchantment: Homeguard","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3270.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accf5" },"id":3271,"name":"Enchantment: Captain","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3271.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accf6" },"id":3272,"name":"Enchantment: Furor","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3272.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accf7" },"id":3273,"name":"Enchantment: Distortion","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3273.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accf8" },"id":3274,"name":"Enchantment: Alacrity","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3274.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accf9" },"id":3275,"name":"Enchantment: Homeguard","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3275.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accfa" },"id":3276,"name":"Enchantment: Captain","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3276.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accfb" },"id":3277,"name":"Enchantment: Furor","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3277.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accfc" },"id":3278,"name":"Enchantment: Distortion","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3278.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accfd" },"id":3279,"name":"Enchantment: Alacrity","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3279.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accfe" },"id":3280,"name":"Enchantment: Homeguard","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3280.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138accff" },"id":3281,"name":"Enchantment: Captain","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3281.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd00" },"id":3282,"name":"Enchantment: Furor","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3282.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd01" },"id":3283,"name":"Enchantment: Distortion","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3283.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd02" },"id":3284,"name":"Enchantment: Alacrity","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3284.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd03" },"id":3285,"name":"Luden's Echo","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3285.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd04" },"id":3286,"name":"Luden's Echo","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3286.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd05" },"id":3290,"name":"Twin Shadows","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3290.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd06" },"id":3301,"name":"Ancient Coin","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3301.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd07" },"id":3302,"name":"Relic Shield","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3302.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd08" },"id":3303,"name":"Spellthief's Edge","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3303.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd09" },"id":3340,"name":"Warding Totem (Trinket }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3340.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd0a" },"id":3341,"name":"Sweeping Lens (Trinket }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3341.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd0b" },"id":3342,"name":"Scrying Orb (Trinket }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3342.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd0c" },"id":3345,"name":"Soul Anchor (Trinket }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3345.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd0d" },"id":3361,"name":"Greater Stealth Totem (Trinket }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3361.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd0e" },"id":3362,"name":"Greater Vision Totem (Trinket }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3362.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd0f" },"id":3363,"name":"Farsight Orb (Trinket }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3363.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd10" },"id":3364,"name":"Oracle's Lens (Trinket }","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3364.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd11" },"id":3401,"name":"Face of the Mountain","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3401.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd12" },"id":3460,"name":"Golden Transcendence","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3460.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd13" },"id":3504,"name":"Ardent Censer","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3504.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd14" },"id":3508,"name":"Essence Reaver","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3508.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd15" },"id":3512,"name":"Zz'Rot Portal","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3512.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd16" },"id":3599,"name":"The Black Spear","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3599.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd17" },"id":3706,"name":"Stalker's Blade","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3706.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd18" },"id":3707,"name":"Enchantment: Warrior","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3707.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd19" },"id":3708,"name":"Enchantment: Magus","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3708.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd1a" },"id":3709,"name":"Enchantment: Cinderhulk","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3709.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd1b" },"id":3710,"name":"Enchantment: Devourer","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3710.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd1c" },"id":3711,"name":"Poacher's Knife","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3711.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd1d" },"id":3713,"name":"Ranger's Trailblazer","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3713.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd1e" },"id":3714,"name":"Enchantment: Warrior","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3714.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd1f" },"id":3715,"name":"Skirmisher's Sabre","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3715.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd20" },"id":3716,"name":"Enchantment: Magus","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3716.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd21" },"id":3717,"name":"Enchantment: Cinderhulk","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3717.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd22" },"id":3718,"name":"Enchantment: Devourer","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3718.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd23" },"id":3719,"name":"Enchantment: Warrior","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3719.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd24" },"id":3720,"name":"Enchantment: Magus","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3720.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd25" },"id":3721,"name":"Enchantment: Cinderhulk","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3721.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd26" },"id":3722,"name":"Enchantment: Devourer","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3722.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd27" },"id":3723,"name":"Enchantment: Warrior","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3723.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd28" },"id":3724,"name":"Enchantment: Magus","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3724.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd29" },"id":3725,"name":"Enchantment: Cinderhulk","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3725.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd2a" },"id":3726,"name":"Enchantment: Devourer","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3726.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd2b" },"id":3751,"name":"Bami's Cinder","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3751.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd2c" },"id":3800,"name":"Righteous Glory","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3800.png","__v":0}
+{"_id":{ "$oid": "552ecfeca410db18138acd2d" },"id":3801,"name":"Crystalline Bracer","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/item/3801.png","__v":0}

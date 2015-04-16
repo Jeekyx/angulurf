@@ -24,10 +24,11 @@ app.use(express.static('www'));
 app.all('*', function(req, res, next) {
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-type, Accept, Authorization');
+  res.header("Content-Type", "application/json; charset=utf-8");
   next();
 });
 
-mongoose.connect(MONGO_URI, function(err) {
+/*mongoose.connect(MONGO_URI, function(err) {
   if (!err) {
     console.log('Connected to ' + MONGO_URI);
   } else {
@@ -36,7 +37,7 @@ mongoose.connect(MONGO_URI, function(err) {
 });
 
 app.use('/stats', routesStats);
-app.use('/random', routesData.Random);
+app.use('/random', routesData.Random);*/
 
 app.set('http-port', process.env.PORT || 5142);
 

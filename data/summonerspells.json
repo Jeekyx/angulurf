@@ -1,0 +1,14 @@
+{"_id":{ "$oid": "552ecfeba410db18138acbb5" },"name":"Cleanse","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/spell/SummonerBoost.png","id":1,"__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbb6" },"name":"Teleport","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/spell/SummonerTeleport.png","id":12,"__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbb7" },"name":"To the King!","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/spell/SummonerPoroRecall.png","id":30,"__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbb8" },"name":"Ignite","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/spell/SummonerDot.png","id":14,"__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbb9" },"name":"Ghost","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/spell/SummonerHaste.png","id":6,"__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbba" },"name":"Heal","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/spell/SummonerHeal.png","id":7,"__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbbb" },"name":"Smite","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/spell/SummonerSmite.png","id":11,"__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbbc" },"name":"Exhaust","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/spell/SummonerExhaust.png","id":3,"__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbbd" },"name":"Poro Toss","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/spell/SummonerPoroThrow.png","id":31,"__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbbe" },"name":"Clarity","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/spell/SummonerMana.png","id":13,"__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbbf" },"name":"Barrier","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/spell/SummonerBarrier.png","id":21,"__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbc0" },"name":"Clairvoyance","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/spell/SummonerClairvoyance.png","id":2,"__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbc1" },"name":"Flash","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/spell/SummonerFlash.png","id":4,"__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbc2" },"name":"Garrison","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/spell/SummonerOdinGarrison.png","id":17,"__v":0}

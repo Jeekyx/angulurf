@@ -1,0 +1,124 @@
+{"_id":{ "$oid": "552ecfeba410db18138acbc3" },"id":412,"name":"Thresh","title":"the Chain Warden","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Thresh.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbc4" },"id":266,"name":"Aatrox","title":"the Darkin Blade","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Aatrox.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbc5" },"id":23,"name":"Tryndamere","title":"the Barbarian King","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Tryndamere.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbc6" },"id":79,"name":"Gragas","title":"the Rabble Rouser","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Gragas.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbc7" },"id":69,"name":"Cassiopeia","title":"the Serpent's Embrace","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Cassiopeia.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbc8" },"id":78,"name":"Poppy","title":"the Iron Ambassador","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Poppy.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbcd" },"id":111,"name":"Nautilus","title":"the Titan of the Depths","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Nautilus.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbd2" },"id":34,"name":"Anivia","title":"the Cryophoenix","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Anivia.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbd7" },"id":25,"name":"Morgana","title":"Fallen Angel","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Morgana.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbc9" },"id":13,"name":"Ryze","title":"the Rogue Mage","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Ryze.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbce" },"id":99,"name":"Lux","title":"the Lady of Luminosity","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Lux.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbca" },"id":14,"name":"Sion","title":"The Undead Juggernaut","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Sion.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbd3" },"id":86,"name":"Garen","title":"The Might of Demacia","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Garen.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbcf" },"id":103,"name":"Ahri","title":"the Nine-Tailed Fox","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Ahri.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbd8" },"id":28,"name":"Evelynn","title":"the Widowmaker","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Evelynn.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbd4" },"id":27,"name":"Singed","title":"the Mad Chemist","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Singed.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbd9" },"id":105,"name":"Fizz","title":"the Tidal Trickster","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Fizz.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbcb" },"id":1,"name":"Annie","title":"the Dark Child","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Annie.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbcc" },"id":43,"name":"Karma","title":"the Enlightened One","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Karma.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbd0" },"id":2,"name":"Olaf","title":"the Berserker","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Olaf.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbd1" },"id":112,"name":"Viktor","title":"the Machine Herald","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Viktor.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbd5" },"id":127,"name":"Lissandra","title":"the Ice Witch","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Lissandra.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbd6" },"id":57,"name":"Maokai","title":"the Twisted Treant","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Maokai.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbda" },"id":238,"name":"Zed","title":"the Master of Shadows","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Zed.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbdb" },"id":74,"name":"Heimerdinger","title":"the Revered Inventor","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Heimerdinger.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbdc" },"id":68,"name":"Rumble","title":"the Mechanized Menace","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Rumble.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbdd" },"id":82,"name":"Mordekaiser","title":"the Master of Metal","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Mordekaiser.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbde" },"id":37,"name":"Sona","title":"Maven of the Strings","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Sona.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbdf" },"id":55,"name":"Katarina","title":"the Sinister Blade","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Katarina.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbe0" },"id":96,"name":"Kog'Maw","title":"the Mouth of the Abyss","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/KogMaw.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbe1" },"id":22,"name":"Ashe","title":"the Frost Archer","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Ashe.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbe2" },"id":117,"name":"Lulu","title":"the Fae Sorceress","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Lulu.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbe3" },"id":30,"name":"Karthus","title":"the Deathsinger","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Karthus.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbe4" },"id":12,"name":"Alistar","title":"the Minotaur","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Alistar.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbe5" },"id":122,"name":"Darius","title":"the Hand of Noxus","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Darius.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbe6" },"id":67,"name":"Vayne","title":"the Night Hunter","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Vayne.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbe7" },"id":110,"name":"Varus","title":"the Arrow of Retribution","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Varus.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbe8" },"id":77,"name":"Udyr","title":"the Spirit Walker","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Udyr.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbe9" },"id":126,"name":"Jayce","title":"the Defender of Tomorrow","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Jayce.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbea" },"id":89,"name":"Leona","title":"the Radiant Dawn","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Leona.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbeb" },"id":134,"name":"Syndra","title":"the Dark Sovereign","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Syndra.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbec" },"id":80,"name":"Pantheon","title":"the Artisan of War","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Pantheon.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbed" },"id":121,"name":"Kha'Zix","title":"the Voidreaver","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Khazix.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbee" },"id":92,"name":"Riven","title":"the Exile","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Riven.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbef" },"id":42,"name":"Corki","title":"the Daring Bombardier","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Corki.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbf0" },"id":268,"name":"Azir","title":"the Emperor of the Sands","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Azir.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbf1" },"id":51,"name":"Caitlyn","title":"the Sheriff of Piltover","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Caitlyn.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbf2" },"id":76,"name":"Nidalee","title":"the Bestial Huntress","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Nidalee.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbf3" },"id":3,"name":"Galio","title":"the Sentinel's Sorrow","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Galio.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbf4" },"id":85,"name":"Kennen","title":"the Heart of the Tempest","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Kennen.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbf5" },"id":45,"name":"Veigar","title":"the Tiny Master of Evil","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Veigar.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbf6" },"id":432,"name":"Bard","title":"the Wandering Caretaker","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Bard.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbf7" },"id":150,"name":"Gnar","title":"the Missing Link","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Gnar.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbf8" },"id":104,"name":"Graves","title":"the Outlaw","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Graves.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbf9" },"id":90,"name":"Malzahar","title":"the Prophet of the Void","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Malzahar.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbfa" },"id":254,"name":"Vi","title":"the Piltover Enforcer","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Vi.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbfb" },"id":10,"name":"Kayle","title":"The Judicator","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Kayle.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbfc" },"id":39,"name":"Irelia","title":"the Will of the Blades","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Irelia.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbfd" },"id":64,"name":"Lee Sin","title":"the Blind Monk","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/LeeSin.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbfe" },"id":60,"name":"Elise","title":"The Spider Queen","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Elise.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acbff" },"id":106,"name":"Volibear","title":"the Thunder's Roar","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Volibear.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc00" },"id":20,"name":"Nunu","title":"the Yeti Rider","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Nunu.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc01" },"id":4,"name":"Twisted Fate","title":"the Card Master","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/TwistedFate.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc02" },"id":24,"name":"Jax","title":"Grandmaster at Arms","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Jax.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc03" },"id":102,"name":"Shyvana","title":"the Half-Dragon","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Shyvana.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc04" },"id":429,"name":"Kalista","title":"the Spear of Vengeance","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Kalista.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc05" },"id":36,"name":"Dr. Mundo","title":"the Madman of Zaun","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/DrMundo.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc06" },"id":63,"name":"Brand","title":"the Burning Vengeance","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Brand.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc07" },"id":131,"name":"Diana","title":"Scorn of the Moon","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Diana.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc08" },"id":113,"name":"Sejuani","title":"the Winter's Wrath","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Sejuani.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc09" },"id":8,"name":"Vladimir","title":"the Crimson Reaper","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Vladimir.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc0a" },"id":154,"name":"Zac","title":"the Secret Weapon","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Zac.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc0b" },"id":421,"name":"Rek'Sai","title":"the Void Burrower","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/RekSai.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc0c" },"id":133,"name":"Quinn","title":"Demacia's Wings","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Quinn.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc0d" },"id":84,"name":"Akali","title":"the Fist of Shadow","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Akali.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc0e" },"id":18,"name":"Tristana","title":"the Yordle Gunner","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Tristana.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc0f" },"id":120,"name":"Hecarim","title":"the Shadow of War","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Hecarim.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc10" },"id":15,"name":"Sivir","title":"the Battle Mistress","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Sivir.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc11" },"id":236,"name":"Lucian","title":"the Purifier","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Lucian.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc12" },"id":107,"name":"Rengar","title":"the Pridestalker","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Rengar.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc13" },"id":19,"name":"Warwick","title":"the Blood Hunter","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Warwick.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc14" },"id":72,"name":"Skarner","title":"the Crystal Vanguard","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Skarner.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc15" },"id":54,"name":"Malphite","title":"Shard of the Monolith","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Malphite.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc16" },"id":157,"name":"Yasuo","title":"the Unforgiven","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Yasuo.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc17" },"id":101,"name":"Xerath","title":"the Magus Ascendant","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Xerath.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc18" },"id":17,"name":"Teemo","title":"the Swift Scout","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Teemo.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc19" },"id":75,"name":"Nasus","title":"the Curator of the Sands","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Nasus.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc1a" },"id":58,"name":"Renekton","title":"the Butcher of the Sands","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Renekton.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc1b" },"id":119,"name":"Draven","title":"the Glorious Executioner","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Draven.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc1c" },"id":35,"name":"Shaco","title":"the Demon Jester","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Shaco.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc1d" },"id":50,"name":"Swain","title":"the Master Tactician","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Swain.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc1e" },"id":115,"name":"Ziggs","title":"the Hexplosives Expert","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Ziggs.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc1f" },"id":40,"name":"Janna","title":"the Storm's Fury","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Janna.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc20" },"id":91,"name":"Talon","title":"the Blade's Shadow","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Talon.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc21" },"id":61,"name":"Orianna","title":"the Lady of Clockwork","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Orianna.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc22" },"id":9,"name":"Fiddlesticks","title":"the Harbinger of Doom","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/FiddleSticks.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc23" },"id":114,"name":"Fiora","title":"the Grand Duelist","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Fiora.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc24" },"id":31,"name":"Cho'Gath","title":"the Terror of the Void","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Chogath.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc25" },"id":33,"name":"Rammus","title":"the Armordillo","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Rammus.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc26" },"id":7,"name":"LeBlanc","title":"the Deceiver","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Leblanc.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc27" },"id":26,"name":"Zilean","title":"the Chronokeeper","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Zilean.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc28" },"id":16,"name":"Soraka","title":"the Starchild","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Soraka.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc29" },"id":56,"name":"Nocturne","title":"the Eternal Nightmare","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Nocturne.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc2a" },"id":222,"name":"Jinx","title":"the Loose Cannon","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Jinx.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc2b" },"id":83,"name":"Yorick","title":"the Gravedigger","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Yorick.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc2c" },"id":6,"name":"Urgot","title":"the Headsman's Pride","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Urgot.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc2d" },"id":21,"name":"Miss Fortune","title":"the Bounty Hunter","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/MissFortune.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc2e" },"id":62,"name":"Wukong","title":"the Monkey King","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/MonkeyKing.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc2f" },"id":53,"name":"Blitzcrank","title":"the Great Steam Golem","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Blitzcrank.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc30" },"id":98,"name":"Shen","title":"Eye of Twilight","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Shen.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc31" },"id":201,"name":"Braum","title":"the Heart of the Freljord","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Braum.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc32" },"id":5,"name":"Xin Zhao","title":"the Seneschal of Demacia","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/XinZhao.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc33" },"id":29,"name":"Twitch","title":"the Plague Rat","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Twitch.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc34" },"id":11,"name":"Master Yi","title":"the Wuju Bladesman","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/MasterYi.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc35" },"id":44,"name":"Taric","title":"the Gem Knight","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Taric.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc36" },"id":32,"name":"Amumu","title":"the Sad Mummy","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Amumu.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc37" },"id":41,"name":"Gangplank","title":"the Saltwater Scourge","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Gangplank.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc38" },"id":48,"name":"Trundle","title":"the Troll King","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Trundle.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc39" },"id":38,"name":"Kassadin","title":"the Void Walker","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Kassadin.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc3a" },"id":161,"name":"Vel'Koz","title":"the Eye of the Void","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Velkoz.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc3b" },"id":143,"name":"Zyra","title":"Rise of the Thorns","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Zyra.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc3c" },"id":267,"name":"Nami","title":"the Tidecaller","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Nami.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc3d" },"id":59,"name":"Jarvan IV","title":"the Exemplar of Demacia","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/JarvanIV.png","__v":0}
+{"_id":{ "$oid": "552ecfeba410db18138acc3e" },"id":81,"name":"Ezreal","title":"the Prodigal Explorer","image":"http://ddragon.leagueoflegends.com/cdn/5.2.2/img/champion/Ezreal.png","__v":0}
