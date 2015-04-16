@@ -10,5 +10,12 @@ app.factory('API', ['$http', function ($http) {
     });
   };
 
+  service.stats = function (callback) {
+    var uri = 'http://urfmadness.archorn.eu/stats';
+    $http.get(uri).then(function (data) {
+      callback(data.data);
+    });
+  };
+
   return service;
 }]);

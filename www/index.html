@@ -46,30 +46,31 @@
     </div>
 
     <div class="wrapper">
-      <div ng-class="{hide: stats == false}" class="stats">
+      <div ng-show="stats" class="stats" ng-animate>
         <p>Games statistics</p>
         <ul>
-          <li><span class="league">Bronze</span>12833 games</li>
-          <li><span class="league">Silver</span>8453 games</li>
+          <li ng-repeat="(name, value) in statsData"><span class="league">{{ name | capitalize }}</span>{{ value }}</li>
         </ul>
       </div>
 
-      <div ng-class="{hide: stats == true}"  class="facts">
+      <div class="facts" ng-show="!stats">
         <div class="type-icon">
           <img ng-src="{{facts[index].img}}"></img>
         </div>
-        <div class="sentence">
-          {{ facts[index].sentence }}<span class="name">{{ facts[index].object.name | leaguechampion:facts[index].type }}{{ facts[index].object.title }}</span>
+        <div class="content" ng-show="contentShown" ng-animate>
+          <div class="sentence">
+            {{ facts[index].sentence }}<span class="name">{{ facts[index].object.name | leaguechampion:facts[index].type }}{{ facts[index].object.title }}</span>
+          </div>
+          <ul>
+            <li class="text" ng-repeat="league in facts[index].leagues | leaguevisible:true" ng-animate>
+              <img ng-src="{{ league.name | leagueimage }}"></img>
+              <span ng-if="league.value == null" class="value nc">NC</span>
+              <span ng-if="league.value != null && league.unit != 'timestamp'" class="value">{{ league.value | number:roundUp() }}{{ league.unit | unit }}</span>
+              <span ng-if="league.value != null && league.unit == 'timestamp'" class="value">{{ league.value | leaguetime }}</span>
+            </li>
+          </ul>
         </div>
-        <ul>
-          <li class="text" ng-repeat="league in facts[index].leagues | leaguevisible:true">
-            <img ng-src="{{ league.name | leagueimage }}"></img>
-            <span ng-if="league.value == null" class="value nc">NC</span>
-            <span ng-if="league.value != null && league.unit != 'timestamp'" class="value">{{ league.value | number:roundUp() }}{{ league.unit | unit }}</span>
-            <span ng-if="league.value != null && league.unit == 'timestamp'" class="value">{{ league.value | leaguetime }}</span>
-          </li>
-        </ul>
-        <a class="urf left" ng-class="{hide: index <= 0}" ng-click="previous()">
+        <a class="urf left" ng-hide="index <= 0" ng-click="previous()">
           &#x2770;
         </a>
         <a ng-class="{new: index == max}" class="urf right" ng-click="next()">
@@ -79,9 +80,9 @@
     </div>
   </div>
 
-  <script src="lib/jquery/dist/jquery.min.js"></script>
+  <script src="lib/jquery/dist/jquery.js"></script>
   <script src="lib/angular/angular.js"></script>
-  <script src="lib/angular-animate/angular-animate.min.js"></script>
+  <script src="lib/angular-animate/angular-animate.js"></script>
   <script src="lib/ngstorage/ngStorage.min.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/services.js"></script>

@@ -1,10 +1,7 @@
 var app = angular.module('UrfMadnessApp.Controllers', ['ngStorage', 'ngAnimate']);
 
-app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API',
-function ($scope, $http, $localStorage, API) {
-  // Default fact identifier value
-  //$scope.$storage = $localStorage.$default({ factId: 0 });
-
+app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', '$timeout', 'API',
+function ($scope, $http, $localStorage, $timeout, API) {
   var leagues = [ 'unranked', 'bronze', 'silver', 'gold', 'platinum', 'diamond', 'master', 'challenger' ];
 
   var sentences = {
@@ -48,6 +45,8 @@ function ($scope, $http, $localStorage, API) {
   };
 
   // Default const
+  $scope.statsData = {}
+  $scope.contentShown = true;
   $scope.stats = true;
   $scope.index = 0;
   $scope.max = 0;
@@ -70,6 +69,11 @@ function ($scope, $http, $localStorage, API) {
       }
     }
   };
+
+  API.stats(function (data) {
+    $scope.statsData = data;
+    console.log(data);
+  });
 
   $scope.roundUp = function () {
     if (units[$scope.facts[$scope.index].type] == 'avg')
@@ -128,23 +132,31 @@ function ($scope, $http, $localStorage, API) {
 
   $scope.previous = function () {
     if ($scope.index > 0) {
-      $scope.index--;
+      $scope.contentShown = false;
+      $timeout(function () {
+        $scope.index--;
+        $scope.contentShown = true;
+      }, 150);
     }
   };
 
   $scope.next = function () {
-    $scope.index++;
-    if ($scope.index > $scope.max) {
-      $scope.facts[$scope.index] = jQuery.extend(true, {}, $scope.facts[$scope.index - 1]);
-      $scope.facts[$scope.index].object = {};
-      var selected = [];
-      leagues.forEach(function (element, index, array) {
-        if ($scope.facts[$scope.index - 1].leagues[element]['visible'])
-        selected.push(element);
-      });
-      $scope.randomFactPopulator(selected);
-      $scope.max = $scope.index;
-    }
+    $scope.contentShown = false;
+    $timeout(function () {
+      $scope.index++;
+      if ($scope.index > $scope.max) {
+        $scope.facts[$scope.index] = jQuery.extend(true, {}, $scope.facts[$scope.index - 1]);
+        $scope.facts[$scope.index].object = {};
+        var selected = [];
+        leagues.forEach(function (element, index, array) {
+          if ($scope.facts[$scope.index - 1].leagues[element]['visible'])
+          selected.push(element);
+        });
+        $scope.randomFactPopulator(selected);
+        $scope.max = $scope.index;
+      }
+      $scope.contentShown = true;
+    }, 150);
   };
 
   $scope.randomFactPopulator();
