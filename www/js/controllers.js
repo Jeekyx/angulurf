@@ -92,11 +92,6 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
       console.log(data);
 
       leagues.forEach(function (element, index, array) {
-        // @TODO: Check if any type is missing.
-        // @TODO: Work with the null case. IMPORTANT
-        // @TODO: Tooltip champion/item (LAST PRIORITY).
-        // @TODO: Get global game stats. IMPORTANT
-        // @TODO: Add object data. IMPORTANT
         if (data.data[element] != null) {
           $scope.facts[$scope.index].leagues[element]['value'] = data.data[element][units[data.type] == 'timestamp' ? 'avg' : units[data.type]];
           $scope.facts[$scope.index].leagues[element]['unit'] = units[data.type];
