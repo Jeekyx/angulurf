@@ -1,4 +1,5 @@
 // Colors
+$unranked-color: #568781;
 $bronze-color: #764300;
 $silver-color: #b6b6b6;
 $gold-color: #dfc100;
@@ -8,6 +9,11 @@ $master-color: #606060;
 $challenger-color: #004799;
 
 $text-color: #2d4275;
+
+.unranked {
+  background: url("/img/unranked.png") center center no-repeat;
+  background-size: contain;
+}
 
 .bronze {
   background: url("/img/bronze_1.png") center center no-repeat;
@@ -129,11 +135,11 @@ body {
   -moz-box-shadow: 0px 0px 18px -5px rgba(78,92,94,1);
   box-shadow: 0px 0px 18px -5px rgba(78,92,94,1);
   margin: 0 auto;
-  padding: 50px 20px 20px 20px;
+  padding: 30px 20px 20px 20px;
   position: relative;
   text-align: center;
   vertical-align: middle;
-  width: 750px;
+  width: 1000px;
   &.hide {
     display: none;
   }
@@ -143,25 +149,16 @@ body {
   }
   .type-icon {
     left: 50%;
-    margin-left: -40px;
+    margin-left: -32px;
     position: absolute;
-    top: -40px;
+    top: -32px;
     img {
       border: 5px solid #FFF;
-      border-radius: 40px;
+      border-radius: 32px;
       display: block;
-      height: 80px;
-      width: 80px;
+      height: 64px;
+      width: 64px;
     }
-  }
-  .bubble-link {
-    background: url('/img/bubble-link.png') no-repeat;
-    bottom: 50px;
-    height: 85px;
-    left: -95px;
-    position: absolute;
-    width: 84px;
-    z-index: 2;
   }
   .urf {
     background: url('/img/urf.png') no-repeat;
@@ -202,11 +199,18 @@ body {
       font-size: 45px;
     }
   }
-  .text {
+  .sentence {
     color: $text-color;
+    font-family: 'source_sans_prosemibold';
+    font-size: 32px;
+    line-height: normal;
+    margin-bottom: 15px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .text {
     display: inline-block;
     font-family: 'source_sans_prosemibold';
-    font-size: 28px;
     height: auto;
     line-height: normal;
     text-align: center;
@@ -214,18 +218,15 @@ body {
     img {
       float: left;
       margin-top: -12px;
-      margin-right: 10px;
       width: 70px;
     }
     .value {
-      text-shadow: 2px 0 0 $text-color, -2px 0 0 $text-color, 0 2px 0 $text-color,
-      0 -2px 0 $text-color, 1px 1px $text-color, -1px -1px 0 $text-color,
-      1px -1px 0 $text-color, -1px 1px 0 $text-color;
       color: #FFF;
       font-size: 36px;
-    }
-    .sentence {
-      margin-left: 10px;
+      margin-right: 10px;
+        text-shadow: 2px 0 0 $text-color, -2px 0 0 $text-color, 0 2px 0 $text-color,
+        0 -2px 0 $text-color, 1px 1px $text-color, -1px -1px 0 $text-color,
+        1px -1px 0 $text-color, -1px 1px 0 $text-color;
     }
   }
 }

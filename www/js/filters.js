@@ -2,8 +2,10 @@ var app = angular.module('UrfMadnessApp.Filters', []);
 
 app.filter('unit', function () {
   var units = {
-    percentage: '%',
-    meters: 'm'
+    percent: '%',
+    perPlayer: '',
+    timestamp: '',
+    avg: ''
   };
 
   return function (input) {
@@ -12,7 +14,7 @@ app.filter('unit', function () {
 });
 
 app.filter('leaguevisible', function () {
-  var leagues = [ 'bronze', 'silver', 'gold', 'platinum', 'diamond', 'master', 'challenger' ];
+  var leagues = [ 'unranked', 'bronze', 'silver', 'gold', 'platinum', 'diamond', 'master', 'challenger' ];
 
   return function (items, visible) {
     var filtered = [];
@@ -28,6 +30,9 @@ app.filter('leaguevisible', function () {
 
 app.filter('leagueimage', function () {
   return function (league) {
+    if (league == 'unranked')
+    return '/img/unranked.png';
+
     return '/img/' + league + '_1.png';
   };
 });

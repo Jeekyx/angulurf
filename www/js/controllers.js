@@ -4,7 +4,47 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
   // Default fact identifier value
   //$scope.$storage = $localStorage.$default({ factId: 0 });
 
-  var leagues = [ 'bronze', 'silver', 'gold', 'platinum', 'diamond', 'master', 'challenger' ];
+  var leagues = [ 'unranked', 'bronze', 'silver', 'gold', 'platinum', 'diamond', 'master', 'challenger' ];
+
+  var sentences = {
+    'kills': 'Average number of kills per player',
+    'double': 'Average number of doublekills per player',
+    'triple': 'Average number of triplekills per player',
+    'quadra': 'Average number of quadrakills per player',
+    'penta': 'Average number of pentakills per player',
+    'picks': 'Champion pick percentage: ',
+    'items': 'Item buy percentage: ',
+    'bans': 'Champion ban percentage: ',
+    'spells': 'Selected spell percentage: ',
+    'firstblood': 'Average game time of the firstblood',
+    'firstDragon': 'Average game time of the first dragon killed',
+    'firstBaron': 'Average game time of the first baron killed',
+    'firstLevel6': 'Average game time of the first player reaching level 6',
+    'damageToChampAvg': 'Average damage dealt to champion',
+    'totalDamageAvg': 'Average total damage dealt',
+    'goldEarnedAvg': 'Average gold earned',
+    'matchDurationAvg': 'Average match duration'
+  };
+
+  var units = {
+    'kills': 'perPlayer',
+    'double': 'perPlayer',
+    'triple': 'perPlayer',
+    'quadra': 'perPlayer',
+    'penta': 'perPlayer',
+    'picks': 'percent',
+    'items': 'percent',
+    'bans': 'percent',
+    'spells': 'percent',
+    'firstblood': 'avg',
+    'firstDragon': 'avg',
+    'firstBaron': 'avg',
+    'firstLevel6': 'avg',
+    'damageToChampAvg': 'avg',
+    'totalDamageAvg': 'avg',
+    'goldEarnedAvg': 'avg',
+    'matchDurationAvg': 'avg'
+  };
 
   // Default const
   $scope.stats = true;
@@ -14,15 +54,18 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
     0: {
       count: 0,
       img: '/img/icon_teemo.png',
-      type: 'teemo',
+      type: 'pick',
+      sentence: 'This is a sentence',
+      object: {},
       leagues: {
-        bronze: { order: 0, visible: false, fact: {} },
-        silver: { order: 1, visible: false, fact: {} },
-        gold: { order: 2, visible: false, fact: {} },
-        platinum: { order: 3, visible: false, fact: {} },
-        diamond: { order: 4, visible: false, fact: {} },
-        master: { order: 5, visible: false, fact: {} },
-        challenger: { order: 6, visible: false, fact: {} }
+        unranked: { order: 0, visible: false, value: 0, unit: '' },
+        bronze: { order: 1, visible: false, value: 0, unit: '' },
+        silver: { order: 2, visible: false, value: 0, unit: '' },
+        gold: { order: 3, visible: false, value: 0, unit: '' },
+        platinum: { order: 4, visible: false, value: 0, unit: '' },
+        diamond: { order: 5, visible: false, value: 0, unit: '' },
+        master: { order: 6, visible: false, value: 0, unit: '' },
+        challenger: { order: 7, visible: false, value: 0, unit: '' }
       }
     }
   };
@@ -35,24 +78,21 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
   $scope.randomFactPopulator = function (selected) {
     API.random(function (data) {
       console.log(data);
+      $scope.facts[$scope.index].type = data.type;
+      $scope.facts[$scope.index].sentence = sentences[data.type];
+      $scope.facts[$scope.index].img = data.icon.replace(".webp", ".jpg");
       leagues.forEach(function (element, index, array) {
-        // @TODO: Change sentence from type, etc.
+        // @TODO: Check if any type is missing.
         // @TODO: Work with the null case.
         // @TODO: Change sentence design.
-        var sentence = 'of ' + element + ' players have bought ';
-        if (data[element]!= null) {
-          console.log(data);
-          $scope.facts[$scope.index].leagues[element]['fact'] = {
-            unit: "percentage",
-            value: data[element].percent,
-            sentence: sentence
-          };
+        // @TODO: Tooltip champion/item (LAST PRIORITY).
+        // @TODO: Get global game stats.
+        // @TODO: Add object data.
+        if (data.data[element] != null) {
+          $scope.facts[$scope.index].leagues[element]['fact']['value'] = data.data[element][units[data.type]];
+          $scope.facts[$scope.index].leagues[element]['fact']['unit'] = units[data.type];
         }
       });
-
-      $scope.facts[$scope.index].type = data.type;
-      // @TODO: See image disposition and what to take.
-      $scope.facts[$scope.index].img = data.object.image;
 
       if (typeof selected != "undefined")
       selected.forEach(function (element, index, array) {
@@ -88,20 +128,21 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
   $scope.next = function () {
     $scope.index++;
     if ($scope.index > $scope.max) {
-      // @TODO: Generated the selected array
-      // @TODO: Generate new type and then get image
       $scope.facts[$scope.index] = {
         count: 0,
         img: '/img/icon_teemo.png',
-        type: 'teemo',
+        type: 'pick',
+        sentence: 'This is a sentence',
+        object: {},
         leagues: {
-          bronze: { order: 0, visible: false, fact: {} },
-          silver: { order: 1, visible: false, fact: {} },
-          gold: { order: 2, visible: false, fact: {} },
-          platinum: { order: 3, visible: false, fact: {} },
-          diamond: { order: 4, visible: false, fact: {} },
-          master: { order: 5, visible: false, fact: {} },
-          challenger: { order: 6, visible: false, fact: {} }
+          unranked: { order: 0, visible: false, value: 0, unit: '' },
+          bronze: { order: 1, visible: false, value: 0, unit: '' },
+          silver: { order: 2, visible: false, value: 0, unit: '' },
+          gold: { order: 3, visible: false, value: 0, unit: '' },
+          platinum: { order: 4, visible: false, value: 0, unit: '' },
+          diamond: { order: 5, visible: false, value: 0, unit: '' },
+          master: { order: 6, visible: false, value: 0, unit: '' },
+          challenger: { order: 7, visible: false, value: 0, unit: '' }
         }
       };
       var selected = [];
