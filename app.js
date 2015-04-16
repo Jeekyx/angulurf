@@ -6,7 +6,7 @@ bodyParser = require('body-parser');
 var MONGO_URI = 'mongodb://localhost/urf';
 var mongoose = require('mongoose');
 
-var routesStatic = require('./api/routes/static');
+var routesStats = require('./api/routes/stats');
 var routesData = require('./api/routes/data');
 
 // Configure global path
@@ -35,10 +35,7 @@ mongoose.connect(MONGO_URI, function(err) {
   }
 });
 
-app.use('/items', routesStatic.Item);
-app.use('/champions', routesStatic.Champion);
-app.use('/spells', routesStatic.Spell);
-
+app.use('/stats', routesStats);
 app.use('/random', routesData.Random);
 
 app.set('http-port', process.env.PORT || 5142);
