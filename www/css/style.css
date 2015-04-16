@@ -173,10 +173,31 @@ body {
     -ms-user-select: none;
     width: 100px;
     z-index: 2; }
+    .facts .urf .arrow {
+      height: 50px;
+      margin-top: -15px;
+      position: absolute;
+      top: 50%; }
     .facts .urf.left {
       left: -160px; }
+      .facts .urf.left .arrow {
+        left: 40%; }
     .facts .urf.right {
-      right: -160px; }
+      right: -160px;
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH"; }
+      .facts .urf.right .arrow {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        right: 40%; }
     .facts .urf:active, .facts .urf:focus, .facts .urf:hover {
       background-image: url('/img/urf_on.png');
       display: block;
@@ -184,6 +205,13 @@ body {
       text-shadow: 2px 0 0 #cc6811, -2px 0 0 #cc6811, 0 2px 0 #cc6811, 0 -2px 0 #cc6811, 1px 1px #cc6811, -1px -1px 0 #cc6811, 1px -1px 0 #cc6811, -1px 1px 0 #cc6811; }
     .facts .urf.new {
       font-size: 45px; }
+      .facts .urf.new .text {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH"; }
   .facts .sentence {
     color: #2d4275;
     font-family: 'source_sans_prosemibold';

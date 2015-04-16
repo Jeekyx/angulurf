@@ -13,18 +13,18 @@ $text-color: #2d4275;
 $fail-color: #bc0000;
 
 .chart {
- width: 750px;
- height: 325px;
- margin: 40px auto;
+  width: 750px;
+  height: 325px;
+  margin: 40px auto;
 }
 
 .chartContainer {
-	border: solid 1px black;
-	border-radius: 20px;
-	background: white;
-	width: 800px;
-	height: 400px;
-	margin: 100px auto;
+  border: solid 1px black;
+  border-radius: 20px;
+  background: white;
+  width: 800px;
+  height: 400px;
+  margin: 100px auto;
 }
 
 .unranked {
@@ -221,11 +221,35 @@ body {
     -ms-user-select: none;
     width: 100px;
     z-index: 2;
+    .arrow {
+      height: 50px;
+      margin-top: -15px;
+      position: absolute;
+      top: 50%;
+    }
     &.left {
       left: -160px;
+      .arrow {
+        left: 40%;
+      }
     }
     &.right {
       right: -160px;
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+      .arrow {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        right: 40%;
+      }
     }
     &:active, &:focus, &:hover {
       background-image: url('/img/urf_on.png');
@@ -236,6 +260,14 @@ body {
       1px -1px 0 #cc6811, -1px 1px 0 #cc6811;
     }
     &.new {
+      .text {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+      }
       font-size: 45px;
     }
   }
