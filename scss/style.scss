@@ -118,12 +118,20 @@ body {
     margin: 0;
     padding: 0;
     li {
-      font-family: 'source_sans_proregular';
       font-size: 20px;
       list-style: none;
       .league {
+        display: inline-block;
         font-family: 'source_sans_prosemibold';
         margin-right: 20px;
+        text-align: left;
+        width: 100px;
+      }
+      .value {
+        display: inline-block;
+        font-family: 'source_sans_proregular';
+        text-align: right;
+        width: 100px;
       }
     }
   }

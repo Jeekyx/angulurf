@@ -49,7 +49,7 @@
       <div ng-show="stats" class="stats" ng-animate>
         <p>Games statistics</p>
         <ul>
-          <li ng-repeat="(name, value) in statsData"><span class="league">{{ name | capitalize }}</span>{{ value }}</li>
+          <li ng-repeat="(name, value) in statsData"><span class="league">{{ name | capitalize }}</span><span class="value">{{ value }}</span></li>
         </ul>
       </div>
 
