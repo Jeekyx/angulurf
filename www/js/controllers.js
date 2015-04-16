@@ -1,6 +1,7 @@
 var app = angular.module('UrfMadnessApp.Controllers', ['ngStorage', 'ngAnimate']);
 
-app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function ($scope, $http, $localStorage, API) {
+app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API',
+function ($scope, $http, $localStorage, API) {
   // Default fact identifier value
   //$scope.$storage = $localStorage.$default({ factId: 0 });
 
@@ -134,7 +135,8 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
   $scope.next = function () {
     $scope.index++;
     if ($scope.index > $scope.max) {
-      $scope.facts[$scope.index] = jQuery.extend(true, {}, $scope.facts[$scope.index - 1]);;
+      $scope.facts[$scope.index] = jQuery.extend(true, {}, $scope.facts[$scope.index - 1]);
+      $scope.facts[$scope.index].object = {};
       var selected = [];
       leagues.forEach(function (element, index, array) {
         if ($scope.facts[$scope.index - 1].leagues[element]['visible'])
