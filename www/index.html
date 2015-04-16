@@ -59,11 +59,14 @@
           <img ng-src="{{facts[index].img}}"></img>
         </div>
         <div class="sentence">
-          {{ facts[index].sentence }}
+          {{ facts[index].sentence }}<span class="name">{{ facts[index].object.name | leaguechampion:facts[index].type }}{{ facts[index].object.title }}</span>
         </div>
         <ul>
           <li class="text" ng-repeat="league in facts[index].leagues | leaguevisible:true">
-            <img ng-src="{{ league.name | leagueimage }}"></img><span class="value">{{ league.value }}{{ league.unit | unit }}</span>
+            <img ng-src="{{ league.name | leagueimage }}"></img>
+            <span ng-if="league.value == null" class="value nc">NC</span>
+            <span ng-if="league.value != null && league.unit != 'timestamp'" class="value">{{ league.value | number:roundUp() }}{{ league.unit | unit }}</span>
+            <span ng-if="league.value != null && league.unit == 'timestamp'" class="value">{{ league.value | leaguetime }}</span>
           </li>
         </ul>
         <a class="urf left" ng-class="{hide: index <= 0}" ng-click="previous()">

@@ -17,8 +17,8 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
     'bans': 'Champion ban percentage: ',
     'spells': 'Selected spell percentage: ',
     'firstblood': 'Average game time of the firstblood',
-    'firstDragon': 'Average game time of the first dragon killed',
-    'firstBaron': 'Average game time of the first baron killed',
+    'firstDragon': 'Average game time of the first dragon kill',
+    'firstBaron': 'Average game time of the first baron kill',
     'firstLevel6': 'Average game time of the first player reaching level 6',
     'damageToChampAvg': 'Average damage dealt to champion',
     'totalDamageAvg': 'Average total damage dealt',
@@ -36,14 +36,14 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
     'items': 'percent',
     'bans': 'percent',
     'spells': 'percent',
-    'firstblood': 'avg',
-    'firstDragon': 'avg',
-    'firstBaron': 'avg',
-    'firstLevel6': 'avg',
+    'firstblood': 'timestamp',
+    'firstDragon': 'timestamp',
+    'firstBaron': 'timestamp',
+    'firstLevel6': 'timestamp',
     'damageToChampAvg': 'avg',
     'totalDamageAvg': 'avg',
     'goldEarnedAvg': 'avg',
-    'matchDurationAvg': 'avg'
+    'matchDurationAvg': 'timestamp'
   };
 
   // Default const
@@ -70,6 +70,13 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
     }
   };
 
+  $scope.roundUp = function () {
+    if (units[$scope.facts[$scope.index].type] == 'avg')
+    return 0;
+
+    return 2;
+  }
+
   $scope.randomLeagueGenerator = function () {
     var id = Math.floor(Math.random() * leagues.length);
     return leagues[id];
@@ -77,20 +84,24 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
 
   $scope.randomFactPopulator = function (selected) {
     API.random(function (data) {
-      console.log(data);
       $scope.facts[$scope.index].type = data.type;
       $scope.facts[$scope.index].sentence = sentences[data.type];
       $scope.facts[$scope.index].img = data.icon.replace(".webp", ".jpg");
+      if (typeof data.object != "undefined")
+      $scope.facts[$scope.index].object = data.object;
+      console.log(data);
+
       leagues.forEach(function (element, index, array) {
         // @TODO: Check if any type is missing.
-        // @TODO: Work with the null case.
-        // @TODO: Change sentence design.
+        // @TODO: Work with the null case. IMPORTANT
         // @TODO: Tooltip champion/item (LAST PRIORITY).
-        // @TODO: Get global game stats.
-        // @TODO: Add object data.
+        // @TODO: Get global game stats. IMPORTANT
+        // @TODO: Add object data. IMPORTANT
         if (data.data[element] != null) {
-          $scope.facts[$scope.index].leagues[element]['fact']['value'] = data.data[element][units[data.type]];
-          $scope.facts[$scope.index].leagues[element]['fact']['unit'] = units[data.type];
+          $scope.facts[$scope.index].leagues[element]['value'] = data.data[element][units[data.type] == 'timestamp' ? 'avg' : units[data.type]];
+          $scope.facts[$scope.index].leagues[element]['unit'] = units[data.type];
+        } else {
+          $scope.facts[$scope.index].leagues[element]['value'] = null;
         }
       });
 
@@ -130,7 +141,7 @@ app.controller('HomeCtrl', ['$scope', '$http', '$localStorage', 'API', function 
     if ($scope.index > $scope.max) {
       $scope.facts[$scope.index] = {
         count: 0,
-        img: '/img/icon_teemo.png',
+        img: '',
         type: 'pick',
         sentence: 'This is a sentence',
         object: {},

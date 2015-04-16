@@ -10,6 +10,8 @@ $challenger-color: #004799;
 
 $text-color: #2d4275;
 
+$fail-color: #bc0000;
+
 .unranked {
   background: url("/img/unranked.png") center center no-repeat;
   background-size: contain;
@@ -224,9 +226,14 @@ body {
       color: #FFF;
       font-size: 36px;
       margin-right: 10px;
-        text-shadow: 2px 0 0 $text-color, -2px 0 0 $text-color, 0 2px 0 $text-color,
-        0 -2px 0 $text-color, 1px 1px $text-color, -1px -1px 0 $text-color,
-        1px -1px 0 $text-color, -1px 1px 0 $text-color;
+      text-shadow: 2px 0 0 $text-color, -2px 0 0 $text-color, 0 2px 0 $text-color,
+      0 -2px 0 $text-color, 1px 1px $text-color, -1px -1px 0 $text-color,
+      1px -1px 0 $text-color, -1px 1px 0 $text-color;
+      &.nc {
+        text-shadow: 2px 0 0 $fail-color, -2px 0 0 $fail-color, 0 2px 0 $fail-color,
+        0 -2px 0 $fail-color, 1px 1px $fail-color, -1px -1px 0 $fail-color,
+        1px -1px 0 $fail-color, -1px 1px 0 $fail-color;
+      }
     }
   }
 }

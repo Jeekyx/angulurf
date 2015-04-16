@@ -36,3 +36,26 @@ app.filter('leagueimage', function () {
     return '/img/' + league + '_1.png';
   };
 });
+
+app.filter('leaguechampion', function () {
+  return function (text, type) {
+    if (type == 'picks' || type == 'bans')
+    return text + ', ';
+
+    return text;
+  };
+});
+
+app.filter('leaguetime', function () {
+  return function (seconds) {
+    var minutes = (Math.floor(seconds / 60)).toString();
+    var seconds = (Math.floor(seconds % 60)).toString();
+
+    if (minutes.length == 1)
+    minutes = '0' + minutes;
+    if (seconds.length == 1)
+    seconds = '0' + seconds;
+
+    return minutes + ':' + seconds;
+  };
+});
