@@ -1,6 +1,10 @@
 # URF Madness
 Angular/Nodejs entry for the Riot API Challenge
 
+# Description
+URF Madness is a website providing random and accurate facts about the URF games for each league in the game.
+Ever wanted to know how many players went jungle in URF ? How often Urgot is picked ? Then you are at the right place !
+
 # Installation
 You first need to install :
 * **Nodejs** : https://nodejs.org/download/
