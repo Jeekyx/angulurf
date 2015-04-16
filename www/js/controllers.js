@@ -160,7 +160,9 @@ $scope.chooseLeague = function (league) {
       $scope.contentShown = false;
       $timeout(function () {
         $scope.index--;
-        $scope.contentShown = true;
+        $timeout(function () {
+          $scope.contentShown = true;
+        }, 150);
       }, 150);
     }
 };
@@ -169,18 +171,20 @@ $scope.chooseLeague = function (league) {
     $scope.contentShown = false;
     $timeout(function () {
       $scope.index++;
-      if ($scope.index > $scope.max) {
-        $scope.facts[$scope.index] = jQuery.extend(true, {}, $scope.facts[$scope.index - 1]);
-        $scope.facts[$scope.index].object = {};
-        var selected = [];
-        leagues.forEach(function (element, index, array) {
-          if ($scope.facts[$scope.index - 1].leagues[element]['visible'])
-          selected.push(element);
-        });
-        $scope.randomFactPopulator(selected);
-        $scope.max = $scope.index;
-      }
-      $scope.contentShown = true;
+      $timeout(function () {
+        if ($scope.index > $scope.max) {
+          $scope.facts[$scope.index] = jQuery.extend(true, {}, $scope.facts[$scope.index - 1]);
+          $scope.facts[$scope.index].object = {};
+          var selected = [];
+          leagues.forEach(function (element, index, array) {
+            if ($scope.facts[$scope.index - 1].leagues[element]['visible'])
+            selected.push(element);
+          });
+          $scope.randomFactPopulator(selected);
+          $scope.max = $scope.index;
+        }
+        $scope.contentShown = true;
+      }, 150);
     }, 150);
   };
 
