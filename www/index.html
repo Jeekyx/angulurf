@@ -76,6 +76,12 @@
           {{ index == max ? 'New!' : '&#x2771;' }}
         </a>
       </div>
+    <div class="chartContainer">
+      <div 
+      data-ac-chart="'bar'" 
+      data-ac-data="data" 
+      data-ac-config="config" 
+      class="chart">
     </div>
   </div>
 
@@ -83,6 +89,8 @@
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular-animate/angular-animate.min.js"></script>
   <script src="lib/ngstorage/ngStorage.min.js"></script>
+  <script src='lib/d3/d3.min.js'></script>
+  <script src='lib/angular-charts/angular-charts.min.js'></script>
   <script src="js/filters.js"></script>
   <script src="js/services.js"></script>
   <script src="js/directives.js"></script>
