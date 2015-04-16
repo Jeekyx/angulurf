@@ -28,7 +28,7 @@ app.all('*', function(req, res, next) {
   next();
 });
 
-/*mongoose.connect(MONGO_URI, function(err) {
+mongoose.connect(MONGO_URI, function(err) {
   if (!err) {
     console.log('Connected to ' + MONGO_URI);
   } else {
@@ -37,7 +37,7 @@ app.all('*', function(req, res, next) {
 });
 
 app.use('/stats', routesStats);
-app.use('/random', routesData.Random);*/
+app.use('/random', routesData.Random);
 
 app.set('http-port', process.env.PORT || 5142);
 
@@ -45,8 +45,3 @@ app.set('http-port', process.env.PORT || 5142);
 http.createServer(app).listen(app.get('http-port'), function () {
   console.log('Express HTTP server listening on port ' + app.get('http-port'));
 });
-
-// Livereload code
-/*var livereload = require('livereload');
-server = livereload.createServer();
-server.watch(__dirname + "/www");*/
