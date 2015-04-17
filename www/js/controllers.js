@@ -47,6 +47,7 @@ function ($scope, $http, $localStorage, $timeout, API) {
   // Default const
   $scope.statsData = {}
   $scope.contentShown = true;
+  $scope.buttonsDisabled = false;
   $scope.stats = true;
   $scope.index = 0;
   $scope.max = 0;
@@ -145,10 +146,12 @@ function ($scope, $http, $localStorage, $timeout, API) {
   $scope.previous = function () {
     if ($scope.index > 0) {
       $scope.contentShown = false;
+      $scope.buttonsDisabled = true;
       $timeout(function () {
         $scope.index--;
         $timeout(function () {
           $scope.contentShown = true;
+          $scope.buttonsDisabled = false;
         }, 150);
       }, 150);
     }
@@ -156,6 +159,7 @@ function ($scope, $http, $localStorage, $timeout, API) {
 
   $scope.next = function () {
     $scope.contentShown = false;
+    $scope.buttonsDisabled = true;
     $timeout(function () {
       $scope.index++;
       $timeout(function () {
@@ -173,6 +177,7 @@ function ($scope, $http, $localStorage, $timeout, API) {
           $scope.max = $scope.index;
         }
         $scope.contentShown = true;
+        $scope.buttonsDisabled = false;
       }, 150);
     }, 150);
   };

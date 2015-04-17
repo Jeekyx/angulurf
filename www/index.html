@@ -70,10 +70,10 @@
             </li>
           </ul>
         </div>
-        <a class="urf left" ng-hide="index <= 0" ng-click="previous()">
+        <a class="urf left" ng-hide="index <= 0" ng-click="buttonsDisabled || previous()">
           <img src="/img/left-arrow.png" class="arrow"></img>
         </a>
-        <a ng-class="{new: index == max}" class="urf right" ng-click="next()">
+        <a ng-class="{new: index == max}" class="urf right" ng-click="buttonsDisabled || next()">
           <img src="/img/right-arrow.png" ng-if="index != max" class="arrow"></img>
           <span ng-if="index == max" class="text">New!</span>
         </a>
