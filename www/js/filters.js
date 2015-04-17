@@ -25,7 +25,7 @@ app.filter('leaguevisible', function () {
   return function (items, visible) {
     var filtered = [];
     leagues.forEach(function (element, index, array) {
-      if (typeof items[element]['visible'] != 'undefined' && items[element]['visible'] == visible)
+      if (typeof items != 'undefined' && typeof items[element]['visible'] != 'undefined' && items[element]['visible'] == visible)
       filtered.push(items[element]);
     });
     return filtered;
