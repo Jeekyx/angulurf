@@ -47,6 +47,7 @@ function ($scope, $http, $localStorage, $timeout, API) {
   // Default const
   $scope.statsData = {}
   $scope.contentShown = true;
+  $scope.buttonsDisabled = false;
   $scope.stats = true;
   $scope.index = 0;
   $scope.max = 0;
@@ -88,38 +89,42 @@ function ($scope, $http, $localStorage, $timeout, API) {
 
   $scope.randomFactPopulator = function (selected) {
     API.random(function (data) {
-      $scope.facts[$scope.index].type = data.type;
-      $scope.facts[$scope.index].sentence = sentences[data.type];
-      $scope.facts[$scope.index].img = data.icon.replace(".webp", ".jpg");
-      if (typeof data.object != "undefined")
-      $scope.facts[$scope.index].object = data.object;
+      if (typeof $scope.facts[$scope.index] != 'undefined') {
+        $scope.facts[$scope.index].type = data.type;
+        $scope.facts[$scope.index].sentence = sentences[data.type];
+        $scope.facts[$scope.index].img = data.icon.replace(".webp", ".jpg");
+        if (typeof data.object != "undefined")
+        $scope.facts[$scope.index].object = data.object;
 
-      $scope.data = {
-        series: [],
-        data: []
-      };
+        $scope.data = {
+          series: [],
+          data: []
+        };
 
-      leagues.forEach(function (element, index, array) {
-        $scope.facts[$scope.index].leagues[element]['name'] = element;
-        $scope.data.series.push(element);
-        if (data.data[element] != null) {
-          var val = data.data[element][units[data.type] == 'timestamp' ? 'avg' : units[data.type]];
-          $scope.data.data.push({x: element, y: [val], tooltip: '' + (Math.round (val*100) / 100)});
-          $scope.facts[$scope.index].leagues[element]['value'] = val;
-          $scope.facts[$scope.index].leagues[element]['unit'] = units[data.type];
-        } else {
-          $scope.data.data.push({x: element, y: [0], tooltip: "0"});
-          $scope.facts[$scope.index].leagues[element]['value'] = null;
-        }
-      });
+        leagues.forEach(function (element, index, array) {
+          if (typeof $scope.facts[$scope.index] != 'undefined' && typeof $scope.facts[$scope.index].leagues != 'undefined') {
+            $scope.facts[$scope.index].leagues[element]['name'] = element;
+            $scope.data.series.push(element);
+            if (data.data[element] != null) {
+              var val = data.data[element][units[data.type] == 'timestamp' ? 'avg' : units[data.type]];
+              $scope.data.data.push({x: element, y: [val], tooltip: '' + (Math.round (val*100) / 100)});
+              $scope.facts[$scope.index].leagues[element]['value'] = val;
+              $scope.facts[$scope.index].leagues[element]['unit'] = units[data.type];
+            } else {
+              $scope.data.data.push({x: element, y: [0], tooltip: "0"});
+              $scope.facts[$scope.index].leagues[element]['value'] = null;
+            }
+          }
+        });
 
-      if (typeof selected != "undefined")
-      selected.forEach(function (element, index, array) {
-        if (!$scope.facts[$scope.index].leagues[element]['visible'])
-        $scope.facts[$scope.index]['count']++;
+        if (typeof selected != "undefined")
+        selected.forEach(function (element, index, array) {
+          if (!$scope.facts[$scope.index].leagues[element]['visible'])
+          $scope.facts[$scope.index]['count']++;
 
-        $scope.facts[$scope.index].leagues[element]['visible'] = true;
-      });
+          $scope.facts[$scope.index].leagues[element]['visible'] = true;
+        });
+      }
     });
   };
 
@@ -141,10 +146,12 @@ function ($scope, $http, $localStorage, $timeout, API) {
   $scope.previous = function () {
     if ($scope.index > 0) {
       $scope.contentShown = false;
+      $scope.buttonsDisabled = true;
       $timeout(function () {
         $scope.index--;
         $timeout(function () {
           $scope.contentShown = true;
+          $scope.buttonsDisabled = false;
         }, 150);
       }, 150);
     }
@@ -152,6 +159,7 @@ function ($scope, $http, $localStorage, $timeout, API) {
 
   $scope.next = function () {
     $scope.contentShown = false;
+    $scope.buttonsDisabled = true;
     $timeout(function () {
       $scope.index++;
       $timeout(function () {
@@ -160,13 +168,16 @@ function ($scope, $http, $localStorage, $timeout, API) {
           $scope.facts[$scope.index].object = {};
           var selected = [];
           leagues.forEach(function (element, index, array) {
-            if ($scope.facts[$scope.index - 1].leagues[element]['visible'])
+            if (typeof $scope.facts[$scope.index - 1] != 'undefined'
+            && typeof $scope.facts[$scope.index - 1].leagues != 'undefined'
+            && $scope.facts[$scope.index - 1].leagues[element]['visible'])
             selected.push(element);
           });
           $scope.randomFactPopulator(selected);
           $scope.max = $scope.index;
         }
         $scope.contentShown = true;
+        $scope.buttonsDisabled = false;
       }, 150);
     }, 150);
   };
